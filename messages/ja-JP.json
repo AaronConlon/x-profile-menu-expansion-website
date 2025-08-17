@@ -160,5 +160,12 @@
     "zh-TW": "繁體中文",
     "en-US": "English",
     "ja-JP": "日本語"
+  },
+  "metadata": {
+    "title": "X Profile Menu - Chrome ブラウザ拡張機能",
+    "description": "任意のTwitterページでProfileボタンにマウスをホバーすると、クイックアクセスメニューがポップアップ表示されます。左クリックでPosts、Replies、Highlights、Articles、Media、Likesに直接アクセス、右クリックでiframeプレビューを開きます。",
+    "shortDescription": "任意のTwitterページでProfileボタンにマウスをホバーすると、クイックアクセスメニューがポップアップ表示されます。左クリックでPosts、Replies、Highlights、Articles、Mediaに直接アクセス、右クリックでiframeプレビューを開きます。",
+    "siteName": "X Profile Menu",
+    "imageAlt": "X Profile Menu Chrome 拡張機能"
   }
 }

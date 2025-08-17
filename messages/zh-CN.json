@@ -160,5 +160,12 @@
     "zh-TW": "繁體中文",
     "en-US": "English",
     "ja-JP": "日本語"
+  },
+  "metadata": {
+    "title": "X Profile Menu - Chrome 浏览器插件",
+    "description": "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media、Likes，右键打开 iframe 预览。",
+    "shortDescription": "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media，右键打开 iframe 预览。",
+    "siteName": "X Profile Menu",
+    "imageAlt": "X Profile Menu Chrome 扩展"
   }
 }

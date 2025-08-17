@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { Geist, Geist_Mono } from "next/font/google";
@@ -15,33 +15,65 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  metadataBase: new URL('https://x-profile-menu.com'),
-  title: "X Profile Menu - Chrome 浏览器插件",
-  description: "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media、Likes，右键打开 iframe 预览。",
-  openGraph: {
-    title: "X Profile Menu - Chrome 浏览器插件",
-    description: "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media，右键打开 iframe 预览。",
-    images: [
-      {
-        url: "/og.png",
-        width: 1200,
-        height: 630,
-        alt: "X Profile Menu Chrome Extension",
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+
+  // 根据locale确定OpenGraph locale
+  const ogLocaleMap = {
+    'zh-CN': 'zh_CN',
+    'zh-TW': 'zh_TW',
+    'en-US': 'en_US',
+    'ja-JP': 'ja_JP'
+  };
+
+  return {
+    metadataBase: new URL('https://x-profile-menu-expansion-website.vercel.app'),
+    title: t('title'),
+    description: t('description'),
+    openGraph: {
+      title: t('title'),
+      description: t('shortDescription'),
+      url: `https://x-profile-menu-expansion-website.vercel.app/${locale}`,
+      siteName: t('siteName'),
+      images: [
+        {
+          url: "/og.png",
+          width: 1200,
+          height: 630,
+          alt: t('imageAlt'),
+        },
+      ],
+      locale: ogLocaleMap[locale] || 'en_US',
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t('title'),
+      description: t('shortDescription'),
+      images: ["/og.png"],
+    },
+    icons: {
+      icon: "/x-32.png",
+      shortcut: "/x-32.png",
+      apple: "/x-32.png",
+      other: {
+        rel: "apple-touch-icon-precomposed",
+        url: "/x-32.png",
       },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "X Profile Menu - Chrome 浏览器插件",
-    description: "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media，右键打开 iframe 预览。",
-    images: ["/og.png"],
-  },
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
+    },
+    alternates: {
+      canonical: `https://x-profile-menu-expansion-website.vercel.app/${locale}`,
+      languages: {
+        'zh-CN': 'https://x-profile-menu-expansion-website.vercel.app/zh-CN',
+        'zh-TW': 'https://x-profile-menu-expansion-website.vercel.app/zh-TW',
+        'en-US': 'https://x-profile-menu-expansion-website.vercel.app/en-US',
+        'ja-JP': 'https://x-profile-menu-expansion-website.vercel.app/ja-JP',
+        'x-default': 'https://x-profile-menu-expansion-website.vercel.app/en-US'
+      }
+    }
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

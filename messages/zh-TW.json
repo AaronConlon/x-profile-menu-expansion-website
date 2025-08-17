@@ -160,5 +160,12 @@
     "zh-TW": "繁體中文",
     "en-US": "English",
     "ja-JP": "日本語"
+  },
+  "metadata": {
+    "title": "X Profile Menu - Chrome 瀏覽器外掛",
+    "description": "快速在任意推特頁面透過滑鼠懸停 Profile 按鈕彈出快捷存取選單。左鍵直接存取 Posts、Replies、Highlights、Articles、Media、Likes，右鍵開啟 iframe 預覽。",
+    "shortDescription": "快速在任意推特頁面透過滑鼠懸停 Profile 按鈕彈出快捷存取選單。左鍵直接存取 Posts、Replies、Highlights、Articles、Media，右鍵開啟 iframe 預覽。",
+    "siteName": "X Profile Menu",
+    "imageAlt": "X Profile Menu Chrome 擴充功能"
   }
 }

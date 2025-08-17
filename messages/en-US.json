@@ -160,5 +160,12 @@
     "zh-TW": "繁體中文",
     "en-US": "English",
     "ja-JP": "日本語"
+  },
+  "metadata": {
+    "title": "X Profile Menu - Chrome Browser Extension",
+    "description": "Quickly hover over the Profile button on any Twitter page to pop up a quick access menu. Left-click for direct access to Posts, Replies, Highlights, Articles, Media, Likes, right-click to open iframe preview.",
+    "shortDescription": "Quickly hover over the Profile button on any Twitter page to pop up a quick access menu. Left-click for direct access to Posts, Replies, Highlights, Articles, Media, right-click to open iframe preview.",
+    "siteName": "X Profile Menu",
+    "imageAlt": "X Profile Menu Chrome Extension"
   }
 }
