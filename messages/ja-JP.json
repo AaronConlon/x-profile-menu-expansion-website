@@ -1,0 +1,117 @@
+{
+  "header": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome ブラウザ拡張機能",
+    "blog": "私のブログ",
+    "chromeStore": "Chrome ストア",
+    "sourceCode": "ソースコード",
+    "language": "言語"
+  },
+  "hero": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome ブラウザ拡張機能",
+    "description": "任意のTwitterページでProfileボタンにマウスを移動するだけで、Posts、Replies、Highlights、Articles、Media、Likesへの便利なアクセスメニューがポップアップ。左クリックで直接アクセス、右クリックでiframeプレビュー。",
+    "downloadButton": "今すぐダウンロード",
+    "contactButton": "お問い合わせ"
+  },
+  "features": {
+    "title": "機能",
+    "subtitle": "X.comでの体験をより便利で効率的にする強力な機能をご覧ください",
+    "hoverMenu": {
+      "title": "ホバーショートカットメニュー",
+      "description": "Profileボタンにホバーするだけで、すべての機能ページに素早くアクセス"
+    },
+    "dualMode": {
+      "title": "デュアルアクセスモード",
+      "description": "左クリックで直接ナビゲーション、右クリックでiframeプレビュー、異なる使用シナリオに対応"
+    },
+    "openSource": {
+      "title": "オープンソースプロジェクト",
+      "description": "完全オープンソース、透明で安全、コミュニティ主導の継続的改善"
+    },
+    "easyInstall": {
+      "title": "簡単インストール",
+      "description": "ワンクリックインストール、複雑な設定不要、すぐに便利さを体験"
+    },
+    "regularUpdates": {
+      "title": "定期更新",
+      "description": "機能を継続的に最適化し、最新のX.comバージョンとの完全な互換性を確保"
+    }
+  },
+  "demo": {
+    "title": "デモ",
+    "subtitle": "拡張機能の動作をご覧ください"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "お気軽にご連絡いただき、ご意見やご提案をお聞かせください。私はすべてのユーザーのフィードバックを非常に重視しており、一緒にこの拡張機能をより良くしていきましょう",
+    "email": {
+      "title": "メール連絡",
+      "description": "ご質問やご提案がございましたら、いつでもお気軽にメールをお送りください。できるだけ早くご返信いたします。",
+      "button": "今すぐ連絡"
+    },
+    "twitter": {
+      "title": "私のXをフォロー",
+      "description": "最新のアップデートや技術的な洞察を得て、拡張機能開発の背後にあるストーリーや技術的な詳細を学んでください。"
+    },
+    "github": {
+      "title": "ソースコードを表示",
+      "description": "完全オープンソースプロジェクト、コミュニティの貢献と改善を歓迎します。コードを表示し、PRを提出し、一緒にプロジェクトをより良くしましょう。"
+    },
+    "stats": {
+      "response": "メール応答時間",
+      "responseValue": "24h",
+      "openSource": "オープンソース",
+      "openSourceValue": "Open",
+      "community": "アクティブなコミュニティサポート",
+      "communityValue": "Active"
+    }
+  },
+  "donation": {
+    "title": "サポート",
+    "message": "この拡張機能がお役に立ちましたら、以下の方法で私の開発活動をサポートしていただけると幸いです！",
+    "copyButton": "アドレスをコピー",
+    "copySuccess": "アドレスがコピーされました",
+    "thankYou": "ご支援ありがとうございます",
+    "description": "皆様からのご支援により、このプロジェクトの継続的な改善と維持が可能になり、より多くのユーザーにより良い体験を提供できます。すべてのサポートが私の前進の原動力です！"
+  },
+  "download": {
+    "title": "ダウンロード＆インストール",
+    "subtitle": "X Profile Menuがもたらす便利な操作を今すぐ体験してください",
+    "chromeStore": "Chrome ストアダウンロード",
+    "manualInstall": "手動インストール",
+    "version": "現在のバージョン",
+    "installation": {
+      "title": "インストール手順",
+      "step1": "上のボタンをクリックしてChrome ウェブストアにアクセス",
+      "step2": "「Chromeに追加」ボタンをクリックしてインストール完了",
+      "step3": "X.comにアクセスし、任意のProfileボタンにマウスをホバーして使用"
+    },
+    "tips": {
+      "title": "使用のヒント",
+      "tip1": "メニュー項目を左クリック：現在のタブで対応するページを直接開く",
+      "tip2": "メニュー項目を右クリック：iframeポップアップでページ内容をプレビュー",
+      "tip3": "X.comのすべてのProfileボタンをサポート、ツイート内のユーザー名リンクも含む"
+    }
+  },
+  "footer": {
+    "description": "X.comソーシャルメディア体験を簡素化し、プロフィールページへのワンクリックアクセスを実現。",
+    "quickLinks": "クイックリンク",
+    "externalLinks": "外部リンク",
+    "features": "機能",
+    "demo": "デモ",
+    "contact": "お問い合わせ",
+    "downloadInstall": "ダウンロード＆インストール",
+    "githubSource": "GitHub ソース",
+    "followX": "私のXをフォロー",
+    "blog": "私のブログ",
+    "supportDonation": "サポート＆寄付",
+    "copyright": "© 2024 X Profile Menu. All rights reserved."
+  },
+  "languages": {
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  }
+}

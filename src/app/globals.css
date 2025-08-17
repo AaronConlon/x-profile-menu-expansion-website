@@ -10,6 +10,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* 马尔斯绿色调色板 */
+  --color-mars-green-50: #f0f9f5;
+  --color-mars-green-100: #dcf2e8;
+  --color-mars-green-200: #bce5d5;
+  --color-mars-green-300: #8cd3bb;
+  --color-mars-green-400: #56ba9d;
+  --color-mars-green-500: #329b7e;
+  --color-mars-green-600: #1f7a63;
+  --color-mars-green-700: #1a6251;
+  --color-mars-green-800: #184f42;
+  --color-mars-green-900: #154137;
+  --color-mars-green-950: #0a251f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +36,201 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 马尔斯绿色自定义类 */
+.bg-mars-gradient {
+  background: linear-gradient(135deg, #329b7e 0%, #1f7a63 100%);
+}
+
+.bg-mars-gradient-light {
+  background: linear-gradient(135deg, #56ba9d 0%, #329b7e 100%);
+}
+
+.bg-mars-gradient-subtle {
+  background: linear-gradient(135deg, #f0f9f5 0%, #dcf2e8 100%);
+}
+
+.bg-mars-gradient-dark {
+  background: linear-gradient(135deg, #1a6251 0%, #154137 100%);
+}
+
+.hover\:bg-mars-gradient-dark:hover {
+  background: linear-gradient(135deg, #1a6251 0%, #154137 100%);
+}
+
+/* 马尔斯绿背景色 */
+.bg-mars-green-50 { background-color: #f0f9f5; }
+.bg-mars-green-100 { background-color: #dcf2e8; }
+.bg-mars-green-200 { background-color: #bce5d5; }
+.bg-mars-green-300 { background-color: #8cd3bb; }
+.bg-mars-green-400 { background-color: #56ba9d; }
+.bg-mars-green-500 { background-color: #329b7e; }
+.bg-mars-green-600 { background-color: #1f7a63; }
+.bg-mars-green-700 { background-color: #1a6251; }
+.bg-mars-green-800 { background-color: #184f42; }
+.bg-mars-green-900 { background-color: #154137; }
+.bg-mars-green-950 { background-color: #0a251f; }
+
+/* 马尔斯绿文字颜色 */
+.text-mars-green-50 { color: #f0f9f5; }
+.text-mars-green-100 { color: #dcf2e8; }
+.text-mars-green-200 { color: #bce5d5; }
+.text-mars-green-300 { color: #8cd3bb; }
+.text-mars-green-400 { color: #56ba9d; }
+.text-mars-green-500 { color: #329b7e; }
+.text-mars-green-600 { color: #1f7a63; }
+.text-mars-green-700 { color: #1a6251; }
+.text-mars-green-800 { color: #184f42; }
+.text-mars-green-900 { color: #154137; }
+.text-mars-green-950 { color: #0a251f; }
+
+/* 马尔斯绿边框颜色 */
+.border-mars-green-50 { border-color: #f0f9f5; }
+.border-mars-green-100 { border-color: #dcf2e8; }
+.border-mars-green-200 { border-color: #bce5d5; }
+.border-mars-green-300 { border-color: #8cd3bb; }
+.border-mars-green-400 { border-color: #56ba9d; }
+.border-mars-green-500 { border-color: #329b7e; }
+.border-mars-green-600 { border-color: #1f7a63; }
+.border-mars-green-700 { border-color: #1a6251; }
+.border-mars-green-800 { border-color: #184f42; }
+.border-mars-green-900 { border-color: #154137; }
+.border-mars-green-950 { border-color: #0a251f; }
+
+/* hover 状态 */
+.hover\:bg-mars-green-50:hover { background-color: #f0f9f5; }
+.hover\:bg-mars-green-700:hover { background-color: #1a6251; }
+.hover\:bg-mars-green-800:hover { background-color: #184f42; }
+
+/* 渐变背景 */
+.from-mars-green-50 { --tw-gradient-from: #f0f9f5; }
+.from-mars-green-100 { --tw-gradient-from: #dcf2e8; }
+.from-mars-green-200 { --tw-gradient-from: #bce5d5; }
+.from-mars-green-900 { --tw-gradient-from: #154137; }
+
+.to-mars-green-100 { --tw-gradient-to: #dcf2e8; }
+.to-mars-green-200 { --tw-gradient-to: #bce5d5; }
+.to-mars-green-300 { --tw-gradient-to: #8cd3bb; }
+.to-mars-green-800 { --tw-gradient-to: #184f42; }
+.to-mars-green-900 { --tw-gradient-to: #154137; }
+
+/* 暗模式文字颜色 */
+.dark .dark\:text-mars-green-200 { color: #bce5d5; }
+.dark .dark\:text-mars-green-300 { color: #8cd3bb; }
+.dark .dark\:text-mars-green-400 { color: #56ba9d; }
+
+/* 暗模式边框颜色 */
+.dark .dark\:border-mars-green-600 { border-color: #1f7a63; }
+.dark .dark\:border-mars-green-800 { border-color: #184f42; }
+
+/* 暗模式背景颜色 */
+.dark .dark\:bg-mars-green-900\/30 { background-color: rgba(21, 65, 55, 0.3); }
+
+/* 暗模式渐变 */
+.dark .dark\:from-mars-green-800 { --tw-gradient-from: #184f42; }
+.dark .dark\:from-mars-green-900 { --tw-gradient-from: #154137; }
+.dark .dark\:to-mars-green-800 { --tw-gradient-to: #184f42; }
+.dark .dark\:to-mars-green-900 { --tw-gradient-to: #154137; }
+
+/* 轮播组件增强样式 */
+.image-carousel-container {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.image-carousel-container:hover .carousel-controls {
+  opacity: 1;
+}
+
+.carousel-controls {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* 轮播图片加载动画 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.carousel-image-enter {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* 功能卡片动画 */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(50, 155, 126, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(50, 155, 126, 0.6);
+  }
+}
+
+.feature-card-enter {
+  animation: slideInUp 0.6s ease-out forwards;
+}
+
+.feature-card-float:hover {
+  animation: float 3s ease-in-out infinite;
+}
+
+.feature-card-glow:hover {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* 六边形背景图案 */
+.hexagon-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(50, 155, 126, 0.1) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, rgba(50, 155, 126, 0.1) 2px, transparent 2px);
+  background-size: 40px 40px;
+}
+
+.dots-pattern {
+  background-image: radial-gradient(circle, rgba(50, 155, 126, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.waves-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(50, 155, 126, 0.1) 10px,
+    rgba(50, 155, 126, 0.1) 20px
+  );
+}
+
+.grid-pattern {
+  background-image: 
+    linear-gradient(rgba(50, 155, 126, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(50, 155, 126, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.triangles-pattern {
+  background-image: 
+    linear-gradient(45deg, rgba(50, 155, 126, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(50, 155, 126, 0.1) 25%, transparent 25%);
+  background-size: 30px 30px;
 }

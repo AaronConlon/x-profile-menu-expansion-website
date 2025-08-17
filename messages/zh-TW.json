@@ -1,0 +1,117 @@
+{
+  "header": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome 瀏覽器外掛",
+    "blog": "我的部落格",
+    "chromeStore": "Chrome 商店",
+    "sourceCode": "原始碼",
+    "language": "語言"
+  },
+  "hero": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome 瀏覽器外掛",
+    "description": "快速在任意推特的頁面透過滑鼠移動到 Profile 按鈕上方，彈出快捷存取 Posts、Replies、Highlights、Articles、Media、Likes 的選單，左鍵點擊直接存取，右鍵點擊則開啟 iframe 存取。",
+    "downloadButton": "立即下載",
+    "contactButton": "聯絡我"
+  },
+  "features": {
+    "title": "功能特色",
+    "subtitle": "探索我們強大的功能，讓您的 X.com 體驗更加便捷高效",
+    "hoverMenu": {
+      "title": "懸停快捷選單",
+      "description": "滑鼠懸停 Profile 按鈕即可快速存取所有功能頁面"
+    },
+    "dualMode": {
+      "title": "雙擊存取模式",
+      "description": "左鍵直接跳轉，右鍵 iframe 預覽，滿足不同使用情境"
+    },
+    "openSource": {
+      "title": "開源專案",
+      "description": "完全開源，透明安全，社群驅動的持續改進"
+    },
+    "easyInstall": {
+      "title": "簡單安裝",
+      "description": "一鍵安裝，無需複雜設定，立即享受便捷體驗"
+    },
+    "regularUpdates": {
+      "title": "定期更新",
+      "description": "持續最佳化功能，確保與 X.com 最新版本完美相容"
+    }
+  },
+  "demo": {
+    "title": "使用示範",
+    "subtitle": "看看外掛是如何工作的"
+  },
+  "contact": {
+    "title": "聯絡我",
+    "subtitle": "歡迎與我聯絡，分享您的想法和建議。我非常重視每一個使用者的回饋，讓我們一起讓這個外掛變得更好",
+    "email": {
+      "title": "電子郵件聯絡",
+      "description": "有任何問題或建議，歡迎隨時發電子郵件給我。我會盡快回覆您的訊息。",
+      "button": "立即聯絡"
+    },
+    "twitter": {
+      "title": "關注我的 X",
+      "description": "獲取最新更新和技術分享，了解外掛開發背後的故事和技術細節。"
+    },
+    "github": {
+      "title": "檢視原始碼",
+      "description": "完全開源的專案，歡迎社群貢獻和改進。檢視程式碼，提交 PR，一起讓專案更好。"
+    },
+    "stats": {
+      "response": "電子郵件回應時間",
+      "responseValue": "24h",
+      "openSource": "原始碼開放",
+      "openSourceValue": "Open",
+      "community": "活躍社群支援",
+      "communityValue": "Active"
+    }
+  },
+  "donation": {
+    "title": "支持我",
+    "message": "如果這個外掛對您有幫助，歡迎透過以下方式支持我的開發工作！",
+    "copyButton": "複製地址",
+    "copySuccess": "地址已複製",
+    "thankYou": "感謝您的支持",
+    "description": "您的打賞將幫助我持續改進和維護這個專案，為更多使用者提供更好的體驗。每一份支持都是我前進的動力！"
+  },
+  "download": {
+    "title": "下載安裝",
+    "subtitle": "立即體驗 X Profile Menu 帶來的便捷操作",
+    "chromeStore": "Chrome 商店下載",
+    "manualInstall": "手動安裝",
+    "version": "目前版本",
+    "installation": {
+      "title": "安裝說明",
+      "step1": "點選上方按鈕前往 Chrome 線上應用程式商店",
+      "step2": "點選「加到 Chrome」按鈕完成安裝",
+      "step3": "造訪 X.com，將滑鼠懸停在任意 Profile 按鈕上即可使用"
+    },
+    "tips": {
+      "title": "使用提示",
+      "tip1": "左鍵點選選單項目：直接在目前分頁開啟對應頁面",
+      "tip2": "右鍵點選選單項目：在 iframe 彈出視窗中預覽頁面內容",
+      "tip3": "支援所有 X.com 的 Profile 按鈕，包括推文中的使用者名稱連結"
+    }
+  },
+  "footer": {
+    "description": "簡化您的 X.com 社交媒體體驗，一鍵存取個人資料頁面。",
+    "quickLinks": "快速連結",
+    "externalLinks": "外部連結",
+    "features": "功能特色",
+    "demo": "使用示範",
+    "contact": "聯絡我",
+    "downloadInstall": "下載安裝",
+    "githubSource": "GitHub 原始碼",
+    "followX": "關注我的 X",
+    "blog": "我的部落格",
+    "supportDonation": "支持打賞",
+    "copyright": "© 2024 X Profile Menu. 保留所有權利。"
+  },
+  "languages": {
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  }
+}

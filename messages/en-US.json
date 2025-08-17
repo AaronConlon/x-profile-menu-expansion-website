@@ -1,0 +1,117 @@
+{
+  "header": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome Browser Extension",
+    "blog": "My Blog",
+    "chromeStore": "Chrome Store",
+    "sourceCode": "Source Code",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "X Profile Menu",
+    "subtitle": "Chrome Browser Extension",
+    "description": "Quickly access Posts, Replies, Highlights, Articles, Media, and Likes through a convenient hover menu on any Twitter Profile button. Left-click for direct access, right-click for iframe preview.",
+    "downloadButton": "Download Now",
+    "contactButton": "Contact Me"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Explore our powerful features that make your X.com experience more convenient and efficient",
+    "hoverMenu": {
+      "title": "Hover Shortcut Menu",
+      "description": "Hover over Profile button to quickly access all functional pages"
+    },
+    "dualMode": {
+      "title": "Dual Access Mode",
+      "description": "Left-click for direct navigation, right-click for iframe preview, meeting different usage scenarios"
+    },
+    "openSource": {
+      "title": "Open Source Project",
+      "description": "Fully open source, transparent and secure, community-driven continuous improvement"
+    },
+    "easyInstall": {
+      "title": "Easy Installation",
+      "description": "One-click installation, no complex configuration required, enjoy convenience immediately"
+    },
+    "regularUpdates": {
+      "title": "Regular Updates",
+      "description": "Continuously optimize features, ensuring perfect compatibility with the latest X.com version"
+    }
+  },
+  "demo": {
+    "title": "Demo",
+    "subtitle": "See how the extension works"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Feel free to contact me and share your thoughts and suggestions. I highly value every user's feedback, let's make this extension better together",
+    "email": {
+      "title": "Email Contact",
+      "description": "For any questions or suggestions, feel free to email me anytime. I will reply to your message as soon as possible.",
+      "button": "Contact Now"
+    },
+    "twitter": {
+      "title": "Follow My X",
+      "description": "Get the latest updates and technical insights, learn about the stories and technical details behind the extension development."
+    },
+    "github": {
+      "title": "View Source Code",
+      "description": "Fully open source project, welcome community contributions and improvements. View code, submit PRs, let's make the project better together."
+    },
+    "stats": {
+      "response": "Email Response Time",
+      "responseValue": "24h",
+      "openSource": "Open Source",
+      "openSourceValue": "Open",
+      "community": "Active Community Support",
+      "communityValue": "Active"
+    }
+  },
+  "donation": {
+    "title": "Support Me",
+    "message": "If this extension is helpful to you, welcome to support my development work through the following ways!",
+    "copyButton": "Copy Address",
+    "copySuccess": "Address Copied",
+    "thankYou": "Thank You for Your Support",
+    "description": "Your donation will help me continue to improve and maintain this project, providing better experiences for more users. Every support is my motivation to move forward!"
+  },
+  "download": {
+    "title": "Download & Install",
+    "subtitle": "Experience the convenient operations brought by X Profile Menu right now",
+    "chromeStore": "Chrome Store Download",
+    "manualInstall": "Manual Install",
+    "version": "Current Version",
+    "installation": {
+      "title": "Installation Instructions",
+      "step1": "Click the button above to go to Chrome Web Store",
+      "step2": "Click 'Add to Chrome' button to complete installation",
+      "step3": "Visit X.com, hover your mouse over any Profile button to use"
+    },
+    "tips": {
+      "title": "Usage Tips",
+      "tip1": "Left-click menu items: Open corresponding page directly in current tab",
+      "tip2": "Right-click menu items: Preview page content in iframe popup",
+      "tip3": "Supports all Profile buttons on X.com, including username links in tweets"
+    }
+  },
+  "footer": {
+    "description": "Simplify your X.com social media experience with one-click access to profile pages.",
+    "quickLinks": "Quick Links",
+    "externalLinks": "External Links",
+    "features": "Features",
+    "demo": "Demo",
+    "contact": "Contact Me",
+    "downloadInstall": "Download & Install",
+    "githubSource": "GitHub Source",
+    "followX": "Follow My X",
+    "blog": "My Blog",
+    "supportDonation": "Support & Donation",
+    "copyright": "© 2024 X Profile Menu. All rights reserved."
+  },
+  "languages": {
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  }
+}
