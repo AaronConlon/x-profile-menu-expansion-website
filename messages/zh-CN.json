@@ -11,36 +11,68 @@
     "title": "X Profile Menu",
     "subtitle": "Chrome 浏览器插件",
     "description": "快速在任意推特的页面通过鼠标移动到 Profile 按钮上方，弹出快捷访问 Posts、Replies、Highlights、Articles、Media、Likes 的菜单，左键点击直接访问，右键点击则打开 iframe 访问。",
-    "downloadButton": "立即下载",
+    "downloadButton": "免费使用 ❤️",
+    "demoButton": "观看演示",
     "contactButton": "联系我"
   },
   "features": {
-    "title": "功能特性",
-    "subtitle": "探索我们强大的功能，让您的 X.com 体验更加便捷高效",
+    "title": "革新功能体验",
+    "subtitle": "五大核心功能特性，专为提升您的 X.com 使用体验而精心设计，让每一次交互都更加智能高效",
     "hoverMenu": {
       "title": "悬停快捷菜单",
-      "description": "鼠标悬停 Profile 按钮即可快速访问所有功能页面"
+      "description": "鼠标悬停在任意 Profile 按钮上方，即可弹出智能快捷访问菜单，包含 Posts、Replies、Highlights、Articles、Media、Likes 等选项。",
+      "demo": "悬停时 0.3 秒后自动显示菜单，支持键盘 ESC 键快速关闭"
     },
     "dualMode": {
       "title": "双击访问模式",
-      "description": "左键直接跳转，右键 iframe 预览，满足不同使用场景"
+      "description": "左键点击菜单项直接跳转到对应页面，右键点击则在当前页面打开 iframe 预览，灵活满足不同使用需求。",
+      "demo": "左键：新标签页打开，右键：当前页面 iframe 弹窗预览"
     },
     "openSource": {
-      "title": "开源项目",
-      "description": "完全开源，透明安全，社区驱动的持续改进"
+      "title": "开源透明",
+      "description": "完全开源的项目，欢迎社区贡献和改进。您可以在 GitHub 上查看源代码、提交问题和参与开发。",
+      "demo": "MIT 开源协议，支持 Fork、Star、PR 贡献，活跃的开发者社区"
     },
-    "easyInstall": {
-      "title": "简单安装",
-      "description": "一键安装，无需复杂配置，立即享受便捷体验"
+    "privacy": {
+      "title": "隐私安全",
+      "description": "遵循 Chrome 扩展安全标准，不收集任何个人数据，所有操作都在本地完成，确保您的隐私和数据安全。",
+      "demo": "零数据收集，本地化处理，通过 Chrome Web Store 安全审核"
     },
-    "regularUpdates": {
-      "title": "定期更新",
-      "description": "持续优化功能，确保与 X.com 最新版本完美兼容"
+    "lightweight": {
+      "title": "轻量高效",
+      "description": "占用极少系统资源，响应速度快，启动时间小于 100ms，不会影响您的浏览器性能和正常使用体验。",
+      "demo": "内存占用 < 5MB，CPU 使用率 < 1%，支持浏览器硬件加速"
+    },
+    "stats": {
+      "responseTime": "0.3s",
+      "responseTimeLabel": "菜单响应时间",
+      "options": "6",
+      "optionsLabel": "快捷访问选项",
+      "privacy": "100%",
+      "privacyLabel": "隐私保护",
+      "free": "∞",
+      "freeLabel": "免费使用"
     }
   },
   "demo": {
-    "title": "使用演示",
-    "subtitle": "看看插件是如何工作的"
+    "title": "插件演示",
+    "subtitle": "看看 X Profile Menu 如何简化您的社交媒体体验",
+    "operationTitle": "智能快捷菜单操作",
+    "step1": {
+      "title": "悬停激活",
+      "description": "将鼠标悬停在任意 Profile 按钮上方，自动弹出快捷菜单"
+    },
+    "step2": {
+      "title": "左键直达",
+      "description": "左键点击菜单项（Posts、Replies、Media等）直接跳转页面"
+    },
+    "step3": {
+      "title": "右键预览",
+      "description": "右键点击菜单项在当前页面打开 iframe 预览，无需离开当前环境"
+    },
+    "imageAlt1": "X Profile Menu 悬停菜单演示",
+    "imageAlt2": "X Profile Menu iframe 预览演示",
+    "imageCaption": "💡 真实插件演示截图 - 悬停菜单与 iframe 预览功能"
   },
   "contact": {
     "title": "联系我",
@@ -59,39 +91,45 @@
       "description": "完全开源的项目，欢迎社区贡献和改进。查看代码，提交 PR，一起让项目更好。"
     },
     "stats": {
-      "response": "邮件响应时间",
-      "responseValue": "24h",
-      "openSource": "源代码开放",
-      "openSourceValue": "Open",
-      "community": "活跃社区支持",
-      "communityValue": "Active"
+      "responseTime": "24h",
+      "responseTimeLabel": "邮件响应时间",
+      "openSource": "Open",
+      "openSourceLabel": "源代码开放",
+      "community": "Active",
+      "communityLabel": "活跃社区支持"
     }
   },
   "donation": {
     "title": "支持我",
     "message": "如果这个插件对您有帮助，欢迎通过以下方式支持我的开发工作！",
+    "addressTitle": "EVM 地址打赏",
+    "networksSupport": "支持以下网络",
     "copyButton": "复制地址",
-    "copySuccess": "地址已复制",
-    "thankYou": "感谢您的支持",
-    "description": "您的打赏将帮助我持续改进和维护这个项目，为更多用户提供更好的体验。每一份支持都是我前进的动力！"
+    "copyTip": "💡 点击右侧按钮可复制地址到剪贴板",
+    "binance": {
+      "support": "币安转账支持",
+      "id": "Binance ID",
+      "copy": "点击复制",
+      "copied": "已复制！"
+    },
+    "thankYouTitle": "感谢您的支持",
+    "thankYouMessage": "您的打赏将帮助我持续改进和维护这个项目，为更多用户提供更好的体验。每一份支持都是我前进的动力！"
   },
   "download": {
-    "title": "下载安装",
-    "subtitle": "立即体验 X Profile Menu 带来的便捷操作",
-    "chromeStore": "Chrome 商店下载",
+    "title": "立即开始使用",
+    "subtitle": "免费下载 X Profile Menu，提升您的 X.com 使用体验",
+    "chromeStore": "Chrome 网上应用店",
+    "chromeStoreDesc": "官方渠道，安全可靠，自动更新",
     "manualInstall": "手动安装",
+    "manualInstallDesc": "下载 .crx 文件，手动安装",
     "version": "当前版本",
-    "installation": {
+    "downloadButton": "前往下载",
+    "downloadFile": "下载文件",
+    "comingSoon": "即将提供",
+    "offlineSupport": "支持离线安装",
+    "installGuide": {
       "title": "安装说明",
-      "step1": "点击上方按钮前往 Chrome 网上应用店",
-      "step2": "点击“添加至 Chrome”按钮完成安装",
-      "step3": "访问 X.com，将鼠标悬停在任意 Profile 按钮上即可使用"
-    },
-    "tips": {
-      "title": "使用提示",
-      "tip1": "左键点击菜单项：直接在当前标签页打开对应页面",
-      "tip2": "右键点击菜单项：在 iframe 弹窗中预览页面内容",
-      "tip3": "支持所有 X.com 的 Profile 按钮，包括推文中的用户名链接"
+      "description": "插件已在 Chrome 网上应用店发布（版本 {version}）。安装后，请在 X.com 页面刷新浏览器，然后将鼠标悬停在任意 Profile 按钮上即可体验智能快捷菜单。"
     }
   },
   "footer": {
@@ -107,6 +145,15 @@
     "blog": "我的博客",
     "supportDonation": "支持打赏",
     "copyright": "© 2024 X Profile Menu. 保留所有权利。"
+  },
+  "navigation": {
+    "hero": "首页",
+    "features": "功能",
+    "demo": "演示",
+    "contact": "联系",
+    "donation": "打赏",
+    "download": "下载",
+    "progress": "浏览进度"
   },
   "languages": {
     "zh-CN": "简体中文",

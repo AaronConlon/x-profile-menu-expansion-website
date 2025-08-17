@@ -11,36 +11,68 @@
     "title": "X Profile Menu",
     "subtitle": "Chrome Browser Extension",
     "description": "Quickly access Posts, Replies, Highlights, Articles, Media, and Likes through a convenient hover menu on any Twitter Profile button. Left-click for direct access, right-click for iframe preview.",
-    "downloadButton": "Download Now",
+    "downloadButton": "Free to Use ❤️",
+    "demoButton": "Watch Demo",
     "contactButton": "Contact Me"
   },
   "features": {
-    "title": "Features",
-    "subtitle": "Explore our powerful features that make your X.com experience more convenient and efficient",
+    "title": "Revolutionary Feature Experience",
+    "subtitle": "Five core feature characteristics, carefully designed to enhance your X.com experience, making every interaction smarter and more efficient",
     "hoverMenu": {
       "title": "Hover Shortcut Menu",
-      "description": "Hover over Profile button to quickly access all functional pages"
+      "description": "Hover over any Profile button to instantly display an intelligent quick access menu, including Posts, Replies, Highlights, Articles, Media, Likes options.",
+      "demo": "Menu automatically appears 0.3 seconds after hovering, supports ESC key for quick close"
     },
     "dualMode": {
-      "title": "Dual Access Mode",
-      "description": "Left-click for direct navigation, right-click for iframe preview, meeting different usage scenarios"
+      "title": "Dual Click Access Mode",
+      "description": "Left-click menu items to directly jump to corresponding pages, right-click to open iframe preview in current page, flexibly meeting different usage needs.",
+      "demo": "Left-click: open in new tab, Right-click: iframe popup preview in current page"
     },
     "openSource": {
-      "title": "Open Source Project",
-      "description": "Fully open source, transparent and secure, community-driven continuous improvement"
+      "title": "Open Source Transparency",
+      "description": "Completely open source project, welcoming community contributions and improvements. You can view source code, submit issues, and participate in development on GitHub.",
+      "demo": "MIT open source license, supports Fork, Star, PR contributions, active developer community"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "One-click installation, no complex configuration required, enjoy convenience immediately"
+    "privacy": {
+      "title": "Privacy Security",
+      "description": "Follows Chrome extension security standards, collects no personal data, all operations completed locally, ensuring your privacy and data security.",
+      "demo": "Zero data collection, local processing, passed Chrome Web Store security review"
     },
-    "regularUpdates": {
-      "title": "Regular Updates",
-      "description": "Continuously optimize features, ensuring perfect compatibility with the latest X.com version"
+    "lightweight": {
+      "title": "Lightweight Efficiency",
+      "description": "Uses minimal system resources, fast response speed, startup time under 100ms, won't affect browser performance and normal usage experience.",
+      "demo": "Memory usage < 5MB, CPU usage < 1%, supports browser hardware acceleration"
+    },
+    "stats": {
+      "responseTime": "0.3s",
+      "responseTimeLabel": "Menu Response Time",
+      "options": "6",
+      "optionsLabel": "Quick Access Options",
+      "privacy": "100%",
+      "privacyLabel": "Privacy Protection",
+      "free": "∞",
+      "freeLabel": "Free to Use"
     }
   },
   "demo": {
-    "title": "Demo",
-    "subtitle": "See how the extension works"
+    "title": "Extension Demo",
+    "subtitle": "See how X Profile Menu simplifies your social media experience",
+    "operationTitle": "Smart Shortcut Menu Operation",
+    "step1": {
+      "title": "Hover Activation",
+      "description": "Hover mouse over any Profile button to automatically display shortcut menu"
+    },
+    "step2": {
+      "title": "Left-click Direct Access",
+      "description": "Left-click menu items (Posts, Replies, Media, etc.) to directly jump to pages"
+    },
+    "step3": {
+      "title": "Right-click Preview",
+      "description": "Right-click menu items to open iframe preview in current page without leaving current environment"
+    },
+    "imageAlt1": "X Profile Menu hover menu demo",
+    "imageAlt2": "X Profile Menu iframe preview demo",
+    "imageCaption": "💡 Real extension demo screenshots - hover menu and iframe preview features"
   },
   "contact": {
     "title": "Contact Me",
@@ -52,61 +84,76 @@
     },
     "twitter": {
       "title": "Follow My X",
-      "description": "Get the latest updates and technical insights, learn about the stories and technical details behind the extension development."
+      "description": "Get latest updates and technical sharing, learn about the stories and technical details behind extension development."
     },
     "github": {
       "title": "View Source Code",
-      "description": "Fully open source project, welcome community contributions and improvements. View code, submit PRs, let's make the project better together."
+      "description": "Completely open source project, welcoming community contributions and improvements. View code, submit PRs, let's make the project better together."
     },
     "stats": {
-      "response": "Email Response Time",
-      "responseValue": "24h",
-      "openSource": "Open Source",
-      "openSourceValue": "Open",
-      "community": "Active Community Support",
-      "communityValue": "Active"
+      "responseTime": "24h",
+      "responseTimeLabel": "Email Response Time",
+      "openSource": "Open",
+      "openSourceLabel": "Source Code Open",
+      "community": "Active",
+      "communityLabel": "Active Community Support"
     }
   },
   "donation": {
     "title": "Support Me",
     "message": "If this extension is helpful to you, welcome to support my development work through the following ways!",
+    "addressTitle": "EVM Address Donation",
+    "networksSupport": "Supports the following networks",
     "copyButton": "Copy Address",
-    "copySuccess": "Address Copied",
-    "thankYou": "Thank You for Your Support",
-    "description": "Your donation will help me continue to improve and maintain this project, providing better experiences for more users. Every support is my motivation to move forward!"
+    "copyTip": "💡 Click the right button to copy address to clipboard",
+    "binance": {
+      "support": "Binance Transfer Support",
+      "id": "Binance ID",
+      "copy": "Click to Copy",
+      "copied": "Copied!"
+    },
+    "thankYouTitle": "Thank You for Your Support",
+    "thankYouMessage": "Your donation will help me continuously improve and maintain this project, providing better experience for more users. Every support is my motivation to move forward!"
   },
   "download": {
-    "title": "Download & Install",
-    "subtitle": "Experience the convenient operations brought by X Profile Menu right now",
-    "chromeStore": "Chrome Store Download",
-    "manualInstall": "Manual Install",
+    "title": "Start Using Now",
+    "subtitle": "Download X Profile Menu for free to enhance your X.com experience",
+    "chromeStore": "Chrome Web Store",
+    "chromeStoreDesc": "Official channel, safe and reliable, automatic updates",
+    "manualInstall": "Manual Installation",
+    "manualInstallDesc": "Download .crx file, manual installation",
     "version": "Current Version",
-    "installation": {
-      "title": "Installation Instructions",
-      "step1": "Click the button above to go to Chrome Web Store",
-      "step2": "Click 'Add to Chrome' button to complete installation",
-      "step3": "Visit X.com, hover your mouse over any Profile button to use"
-    },
-    "tips": {
-      "title": "Usage Tips",
-      "tip1": "Left-click menu items: Open corresponding page directly in current tab",
-      "tip2": "Right-click menu items: Preview page content in iframe popup",
-      "tip3": "Supports all Profile buttons on X.com, including username links in tweets"
+    "downloadButton": "Go to Download",
+    "downloadFile": "Download File",
+    "comingSoon": "Coming Soon",
+    "offlineSupport": "Supports offline installation",
+    "installGuide": {
+      "title": "Installation Guide",
+      "description": "Extension has been published on Chrome Web Store (version {version}). After installation, please refresh the browser on X.com page, then hover mouse over any Profile button to experience the smart shortcut menu."
     }
   },
   "footer": {
-    "description": "Simplify your X.com social media experience with one-click access to profile pages.",
+    "description": "Simplify your X.com social media experience, one-click access to personal profile pages.",
     "quickLinks": "Quick Links",
     "externalLinks": "External Links",
     "features": "Features",
     "demo": "Demo",
-    "contact": "Contact Me",
+    "contact": "Contact",
     "downloadInstall": "Download & Install",
     "githubSource": "GitHub Source",
     "followX": "Follow My X",
     "blog": "My Blog",
-    "supportDonation": "Support & Donation",
+    "supportDonation": "Support Donation",
     "copyright": "© 2024 X Profile Menu. All rights reserved."
+  },
+  "navigation": {
+    "hero": "Home",
+    "features": "Features",
+    "demo": "Demo",
+    "contact": "Contact",
+    "donation": "Donation",
+    "download": "Download",
+    "progress": "Browse Progress"
   },
   "languages": {
     "zh-CN": "简体中文",

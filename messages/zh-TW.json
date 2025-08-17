@@ -11,43 +11,75 @@
     "title": "X Profile Menu",
     "subtitle": "Chrome 瀏覽器外掛",
     "description": "快速在任意推特的頁面透過滑鼠移動到 Profile 按鈕上方，彈出快捷存取 Posts、Replies、Highlights、Articles、Media、Likes 的選單，左鍵點擊直接存取，右鍵點擊則開啟 iframe 存取。",
-    "downloadButton": "立即下載",
+    "downloadButton": "免費使用 ❤️",
+    "demoButton": "觀看演示",
     "contactButton": "聯絡我"
   },
   "features": {
-    "title": "功能特色",
-    "subtitle": "探索我們強大的功能，讓您的 X.com 體驗更加便捷高效",
+    "title": "革新功能體驗",
+    "subtitle": "五大核心功能特性，專為提升您的 X.com 使用體驗而精心設計，讓每一次互動都更加智慧高效",
     "hoverMenu": {
       "title": "懸停快捷選單",
-      "description": "滑鼠懸停 Profile 按鈕即可快速存取所有功能頁面"
+      "description": "滑鼠懸停在任意 Profile 按鈕上方，即可彈出智慧快捷存取選單，包含 Posts、Replies、Highlights、Articles、Media、Likes 等選項。",
+      "demo": "懸停時 0.3 秒後自動顯示選單，支援鍵盤 ESC 鍵快速關閉"
     },
     "dualMode": {
       "title": "雙擊存取模式",
-      "description": "左鍵直接跳轉，右鍵 iframe 預覽，滿足不同使用情境"
+      "description": "左鍵點擊選單項直接跳轉到對應頁面，右鍵點擊則在當前頁面開啟 iframe 預覽，靈活滿足不同使用需求。",
+      "demo": "左鍵：新分頁開啟，右鍵：當前頁面 iframe 彈窗預覽"
     },
     "openSource": {
-      "title": "開源專案",
-      "description": "完全開源，透明安全，社群驅動的持續改進"
+      "title": "開源透明",
+      "description": "完全開源的專案，歡迎社群貢獻和改進。您可以在 GitHub 上查看原始碼、提交問題和參與開發。",
+      "demo": "MIT 開源協議，支援 Fork、Star、PR 貢獻，活躍的開發者社群"
     },
-    "easyInstall": {
-      "title": "簡單安裝",
-      "description": "一鍵安裝，無需複雜設定，立即享受便捷體驗"
+    "privacy": {
+      "title": "隱私安全",
+      "description": "遵循 Chrome 擴充功能安全標準，不收集任何個人資料，所有操作都在本地完成，確保您的隱私和資料安全。",
+      "demo": "零資料收集，本地化處理，通過 Chrome Web Store 安全審核"
     },
-    "regularUpdates": {
-      "title": "定期更新",
-      "description": "持續最佳化功能，確保與 X.com 最新版本完美相容"
+    "lightweight": {
+      "title": "輕量高效",
+      "description": "佔用極少系統資源，回應速度快，啟動時間小於 100ms，不會影響您的瀏覽器效能和正常使用體驗。",
+      "demo": "記憶體佔用 < 5MB，CPU 使用率 < 1%，支援瀏覽器硬體加速"
+    },
+    "stats": {
+      "responseTime": "0.3s",
+      "responseTimeLabel": "選單回應時間",
+      "options": "6",
+      "optionsLabel": "快捷存取選項",
+      "privacy": "100%",
+      "privacyLabel": "隱私保護",
+      "free": "∞",
+      "freeLabel": "免費使用"
     }
   },
   "demo": {
-    "title": "使用示範",
-    "subtitle": "看看外掛是如何工作的"
+    "title": "外掛演示",
+    "subtitle": "看看 X Profile Menu 如何簡化您的社交媒體體驗",
+    "operationTitle": "智慧快捷選單操作",
+    "step1": {
+      "title": "懸停啟動",
+      "description": "將滑鼠懸停在任意 Profile 按鈕上方，自動彈出快捷選單"
+    },
+    "step2": {
+      "title": "左鍵直達",
+      "description": "左鍵點擊選單項（Posts、Replies、Media等）直接跳轉頁面"
+    },
+    "step3": {
+      "title": "右鍵預覽",
+      "description": "右鍵點擊選單項在當前頁面開啟 iframe 預覽，無需離開當前環境"
+    },
+    "imageAlt1": "X Profile Menu 懸停選單演示",
+    "imageAlt2": "X Profile Menu iframe 預覽演示",
+    "imageCaption": "💡 真實外掛演示截圖 - 懸停選單與 iframe 預覽功能"
   },
   "contact": {
     "title": "聯絡我",
     "subtitle": "歡迎與我聯絡，分享您的想法和建議。我非常重視每一個使用者的回饋，讓我們一起讓這個外掛變得更好",
     "email": {
-      "title": "電子郵件聯絡",
-      "description": "有任何問題或建議，歡迎隨時發電子郵件給我。我會盡快回覆您的訊息。",
+      "title": "信箱聯絡",
+      "description": "有任何問題或建議，歡迎隨時發信給我。我會儘快回覆您的訊息。",
       "button": "立即聯絡"
     },
     "twitter": {
@@ -55,43 +87,49 @@
       "description": "獲取最新更新和技術分享，了解外掛開發背後的故事和技術細節。"
     },
     "github": {
-      "title": "檢視原始碼",
-      "description": "完全開源的專案，歡迎社群貢獻和改進。檢視程式碼，提交 PR，一起讓專案更好。"
+      "title": "查看原始碼",
+      "description": "完全開源的專案，歡迎社群貢獻和改進。查看代碼，提交 PR，一起讓專案更好。"
     },
     "stats": {
-      "response": "電子郵件回應時間",
-      "responseValue": "24h",
-      "openSource": "原始碼開放",
-      "openSourceValue": "Open",
-      "community": "活躍社群支援",
-      "communityValue": "Active"
+      "responseTime": "24h",
+      "responseTimeLabel": "信箱回應時間",
+      "openSource": "Open",
+      "openSourceLabel": "原始碼開放",
+      "community": "Active",
+      "communityLabel": "活躍社群支援"
     }
   },
   "donation": {
     "title": "支持我",
     "message": "如果這個外掛對您有幫助，歡迎透過以下方式支持我的開發工作！",
+    "addressTitle": "EVM 地址打賞",
+    "networksSupport": "支援以下網路",
     "copyButton": "複製地址",
-    "copySuccess": "地址已複製",
-    "thankYou": "感謝您的支持",
-    "description": "您的打賞將幫助我持續改進和維護這個專案，為更多使用者提供更好的體驗。每一份支持都是我前進的動力！"
+    "copyTip": "💡 點擊右側按鈕可複製地址到剪貼簿",
+    "binance": {
+      "support": "幣安轉帳支援",
+      "id": "Binance ID",
+      "copy": "點擊複製",
+      "copied": "已複製！"
+    },
+    "thankYouTitle": "感謝您的支持",
+    "thankYouMessage": "您的打賞將幫助我持續改進和維護這個專案，為更多使用者提供更好的體驗。每一份支持都是我前進的動力！"
   },
   "download": {
-    "title": "下載安裝",
-    "subtitle": "立即體驗 X Profile Menu 帶來的便捷操作",
-    "chromeStore": "Chrome 商店下載",
+    "title": "立即開始使用",
+    "subtitle": "免費下載 X Profile Menu，提升您的 X.com 使用體驗",
+    "chromeStore": "Chrome 線上應用程式商店",
+    "chromeStoreDesc": "官方管道，安全可靠，自動更新",
     "manualInstall": "手動安裝",
-    "version": "目前版本",
-    "installation": {
+    "manualInstallDesc": "下載 .crx 檔案，手動安裝",
+    "version": "當前版本",
+    "downloadButton": "前往下載",
+    "downloadFile": "下載檔案",
+    "comingSoon": "即將提供",
+    "offlineSupport": "支援離線安裝",
+    "installGuide": {
       "title": "安裝說明",
-      "step1": "點選上方按鈕前往 Chrome 線上應用程式商店",
-      "step2": "點選「加到 Chrome」按鈕完成安裝",
-      "step3": "造訪 X.com，將滑鼠懸停在任意 Profile 按鈕上即可使用"
-    },
-    "tips": {
-      "title": "使用提示",
-      "tip1": "左鍵點選選單項目：直接在目前分頁開啟對應頁面",
-      "tip2": "右鍵點選選單項目：在 iframe 彈出視窗中預覽頁面內容",
-      "tip3": "支援所有 X.com 的 Profile 按鈕，包括推文中的使用者名稱連結"
+      "description": "外掛已在 Chrome 線上應用程式商店發布（版本 {version}）。安裝後，請在 X.com 頁面重新整理瀏覽器，然後將滑鼠懸停在任意 Profile 按鈕上即可體驗智慧快捷選單。"
     }
   },
   "footer": {
@@ -99,14 +137,23 @@
     "quickLinks": "快速連結",
     "externalLinks": "外部連結",
     "features": "功能特色",
-    "demo": "使用示範",
+    "demo": "使用演示",
     "contact": "聯絡我",
     "downloadInstall": "下載安裝",
     "githubSource": "GitHub 原始碼",
     "followX": "關注我的 X",
     "blog": "我的部落格",
-    "supportDonation": "支持打賞",
+    "supportDonation": "支援打賞",
     "copyright": "© 2024 X Profile Menu. 保留所有權利。"
+  },
+  "navigation": {
+    "hero": "首頁",
+    "features": "功能",
+    "demo": "演示",
+    "contact": "聯絡",
+    "donation": "打賞",
+    "download": "下載",
+    "progress": "瀏覽進度"
   },
   "languages": {
     "zh-CN": "简体中文",

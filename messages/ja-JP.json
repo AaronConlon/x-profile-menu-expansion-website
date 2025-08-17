@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "X Profile Menu",
-    "subtitle": "Chrome ブラウザ拡張機能",
+    "subtitle": "Chrome ブラウザ拡張",
     "blog": "私のブログ",
     "chromeStore": "Chrome ストア",
     "sourceCode": "ソースコード",
@@ -9,104 +9,151 @@
   },
   "hero": {
     "title": "X Profile Menu",
-    "subtitle": "Chrome ブラウザ拡張機能",
-    "description": "任意のTwitterページでProfileボタンにマウスを移動するだけで、Posts、Replies、Highlights、Articles、Media、Likesへの便利なアクセスメニューがポップアップ。左クリックで直接アクセス、右クリックでiframeプレビュー。",
-    "downloadButton": "今すぐダウンロード",
+    "subtitle": "Chrome ブラウザ拡張",
+    "description": "任意のTwitterページでProfileボタンにマウスを重ねると、Posts、Replies、Highlights、Articles、Media、Likesへの便利なアクセスメニューが表示されます。左クリックで直接アクセス、右クリックでiframeプレビュー。",
+    "downloadButton": "無料で使用 ❤️",
+    "demoButton": "デモを見る",
     "contactButton": "お問い合わせ"
   },
   "features": {
-    "title": "機能",
-    "subtitle": "X.comでの体験をより便利で効率的にする強力な機能をご覧ください",
+    "title": "革新的な機能体験",
+    "subtitle": "X.comでの体験を向上させるために精密に設計された5つのコア機能特性により、すべてのインタラクションがよりスマートで効率的になります",
     "hoverMenu": {
       "title": "ホバーショートカットメニュー",
-      "description": "Profileボタンにホバーするだけで、すべての機能ページに素早くアクセス"
+      "description": "任意のProfileボタンにマウスを重ねると、Posts、Replies、Highlights、Articles、Media、Likesオプションを含むインテリジェントなクイックアクセスメニューが瞬時に表示されます。",
+      "demo": "ホバー後0.3秒で自動表示、ESCキーでクイック閉じをサポート"
     },
     "dualMode": {
-      "title": "デュアルアクセスモード",
-      "description": "左クリックで直接ナビゲーション、右クリックでiframeプレビュー、異なる使用シナリオに対応"
+      "title": "デュアルクリックアクセスモード",
+      "description": "メニュー項目を左クリックで対応ページに直接ジャンプ、右クリックで現在のページでiframeプレビューを開き、さまざまな使用ニーズに柔軟に対応。",
+      "demo": "左クリック：新しいタブで開く、右クリック：現在のページでiframeポップアッププレビュー"
     },
     "openSource": {
-      "title": "オープンソースプロジェクト",
-      "description": "完全オープンソース、透明で安全、コミュニティ主導の継続的改善"
+      "title": "オープンソース透明性",
+      "description": "完全にオープンソースのプロジェクトで、コミュニティの貢献と改善を歓迎します。GitHubでソースコードを閲覧し、問題を提出し、開発に参加できます。",
+      "demo": "MITオープンソースライセンス、Fork、Star、PR貢献をサポート、活発な開発者コミュニティ"
     },
-    "easyInstall": {
-      "title": "簡単インストール",
-      "description": "ワンクリックインストール、複雑な設定不要、すぐに便利さを体験"
+    "privacy": {
+      "title": "プライバシーセキュリティ",
+      "description": "Chrome拡張セキュリティ標準に従い、個人データを収集せず、すべての操作をローカルで完了し、プライバシーとデータセキュリティを確保します。",
+      "demo": "データ収集ゼロ、ローカル処理、Chrome Web Storeセキュリティ審査合格"
     },
-    "regularUpdates": {
-      "title": "定期更新",
-      "description": "機能を継続的に最適化し、最新のX.comバージョンとの完全な互換性を確保"
+    "lightweight": {
+      "title": "軽量高効率",
+      "description": "最小限のシステムリソースを使用し、高速な応答速度、100ms未満の起動時間で、ブラウザのパフォーマンスと通常の使用体験に影響しません。",
+      "demo": "メモリ使用量 < 5MB、CPU使用率 < 1%、ブラウザハードウェアアクセラレーションをサポート"
+    },
+    "stats": {
+      "responseTime": "0.3s",
+      "responseTimeLabel": "メニュー応答時間",
+      "options": "6",
+      "optionsLabel": "クイックアクセスオプション",
+      "privacy": "100%",
+      "privacyLabel": "プライバシー保護",
+      "free": "∞",
+      "freeLabel": "無料使用"
     }
   },
   "demo": {
-    "title": "デモ",
-    "subtitle": "拡張機能の動作をご覧ください"
+    "title": "拡張デモ",
+    "subtitle": "X Profile Menuがソーシャルメディア体験をどのように簡素化するかをご覧ください",
+    "operationTitle": "スマートショートカットメニュー操作",
+    "step1": {
+      "title": "ホバー起動",
+      "description": "任意のProfileボタンにマウスを重ねると、ショートカットメニューが自動表示されます"
+    },
+    "step2": {
+      "title": "左クリック直接アクセス",
+      "description": "メニュー項目（Posts、Replies、Mediaなど）を左クリックでページに直接ジャンプ"
+    },
+    "step3": {
+      "title": "右クリックプレビュー",
+      "description": "メニュー項目を右クリックで現在のページでiframeプレビューを開き、現在の環境から離れる必要がありません"
+    },
+    "imageAlt1": "X Profile Menuホバーメニューデモ",
+    "imageAlt2": "X Profile Menu iframeプレビューデモ",
+    "imageCaption": "💡 実際の拡張デモスクリーンショット - ホバーメニューとiframeプレビュー機能"
   },
   "contact": {
     "title": "お問い合わせ",
-    "subtitle": "お気軽にご連絡いただき、ご意見やご提案をお聞かせください。私はすべてのユーザーのフィードバックを非常に重視しており、一緒にこの拡張機能をより良くしていきましょう",
+    "subtitle": "お気軽にお問い合わせいただき、ご意見やご提案をお聞かせください。すべてのユーザーからのフィードバックを大切にし、一緒にこの拡張をより良くしましょう",
     "email": {
       "title": "メール連絡",
-      "description": "ご質問やご提案がございましたら、いつでもお気軽にメールをお送りください。できるだけ早くご返信いたします。",
+      "description": "ご質問やご提案がございましたら、いつでもメールでお気軽にお問い合わせください。できるだけ早くお返事いたします。",
       "button": "今すぐ連絡"
     },
     "twitter": {
       "title": "私のXをフォロー",
-      "description": "最新のアップデートや技術的な洞察を得て、拡張機能開発の背後にあるストーリーや技術的な詳細を学んでください。"
+      "description": "最新のアップデートと技術的な共有を取得し、拡張開発の背後にあるストーリーと技術的な詳細について学びます。"
     },
     "github": {
-      "title": "ソースコードを表示",
-      "description": "完全オープンソースプロジェクト、コミュニティの貢献と改善を歓迎します。コードを表示し、PRを提出し、一緒にプロジェクトをより良くしましょう。"
+      "title": "ソースコードを見る",
+      "description": "完全にオープンソースのプロジェクトで、コミュニティの貢献と改善を歓迎します。コードを閲覧し、PRを提出し、一緒にプロジェクトを向上させましょう。"
     },
     "stats": {
-      "response": "メール応答時間",
-      "responseValue": "24h",
-      "openSource": "オープンソース",
-      "openSourceValue": "Open",
-      "community": "アクティブなコミュニティサポート",
-      "communityValue": "Active"
+      "responseTime": "24h",
+      "responseTimeLabel": "メール応答時間",
+      "openSource": "Open",
+      "openSourceLabel": "ソースコード公開",
+      "community": "Active",
+      "communityLabel": "活発なコミュニティサポート"
     }
   },
   "donation": {
-    "title": "サポート",
-    "message": "この拡張機能がお役に立ちましたら、以下の方法で私の開発活動をサポートしていただけると幸いです！",
+    "title": "サポートする",
+    "message": "この拡張がお役に立てれば、以下の方法で私の開発活動をサポートしていただけます！",
+    "addressTitle": "EVMアドレス寄付",
+    "networksSupport": "以下のネットワークをサポート",
     "copyButton": "アドレスをコピー",
-    "copySuccess": "アドレスがコピーされました",
-    "thankYou": "ご支援ありがとうございます",
-    "description": "皆様からのご支援により、このプロジェクトの継続的な改善と維持が可能になり、より多くのユーザーにより良い体験を提供できます。すべてのサポートが私の前進の原動力です！"
+    "copyTip": "💡 右のボタンをクリックしてアドレスをクリップボードにコピー",
+    "binance": {
+      "support": "Binance送金サポート",
+      "id": "Binance ID",
+      "copy": "クリックしてコピー",
+      "copied": "コピーしました！"
+    },
+    "thankYouTitle": "ご支援ありがとうございます",
+    "thankYouMessage": "あなたのご寄付は、このプロジェクトの継続的な改善と維持に役立ち、より多くのユーザーにより良い体験を提供します。すべてのサポートが私の前進の原動力です！"
   },
   "download": {
-    "title": "ダウンロード＆インストール",
-    "subtitle": "X Profile Menuがもたらす便利な操作を今すぐ体験してください",
-    "chromeStore": "Chrome ストアダウンロード",
+    "title": "今すぐ使い始める",
+    "subtitle": "X Profile Menuを無料でダウンロードして、X.com体験を向上させましょう",
+    "chromeStore": "Chrome ウェブストア",
+    "chromeStoreDesc": "公式チャンネル、安全で信頼性があり、自動更新",
     "manualInstall": "手動インストール",
+    "manualInstallDesc": ".crxファイルをダウンロード、手動インストール",
     "version": "現在のバージョン",
-    "installation": {
-      "title": "インストール手順",
-      "step1": "上のボタンをクリックしてChrome ウェブストアにアクセス",
-      "step2": "「Chromeに追加」ボタンをクリックしてインストール完了",
-      "step3": "X.comにアクセスし、任意のProfileボタンにマウスをホバーして使用"
-    },
-    "tips": {
-      "title": "使用のヒント",
-      "tip1": "メニュー項目を左クリック：現在のタブで対応するページを直接開く",
-      "tip2": "メニュー項目を右クリック：iframeポップアップでページ内容をプレビュー",
-      "tip3": "X.comのすべてのProfileボタンをサポート、ツイート内のユーザー名リンクも含む"
+    "downloadButton": "ダウンロードに移動",
+    "downloadFile": "ファイルをダウンロード",
+    "comingSoon": "近日提供予定",
+    "offlineSupport": "オフラインインストールをサポート",
+    "installGuide": {
+      "title": "インストールガイド",
+      "description": "拡張はChrome ウェブストアで公開されています（バージョン {version}）。インストール後、X.comページでブラウザを更新し、任意のProfileボタンにマウスを重ねてスマートショートカットメニューを体験してください。"
     }
   },
   "footer": {
-    "description": "X.comソーシャルメディア体験を簡素化し、プロフィールページへのワンクリックアクセスを実現。",
+    "description": "X.comソーシャルメディア体験を簡素化し、個人プロフィールページへのワンクリックアクセス。",
     "quickLinks": "クイックリンク",
     "externalLinks": "外部リンク",
     "features": "機能",
     "demo": "デモ",
     "contact": "お問い合わせ",
-    "downloadInstall": "ダウンロード＆インストール",
+    "downloadInstall": "ダウンロード・インストール",
     "githubSource": "GitHub ソース",
     "followX": "私のXをフォロー",
     "blog": "私のブログ",
-    "supportDonation": "サポート＆寄付",
-    "copyright": "© 2024 X Profile Menu. All rights reserved."
+    "supportDonation": "サポート寄付",
+    "copyright": "© 2024 X Profile Menu. 全著作権所有。"
+  },
+  "navigation": {
+    "hero": "ホーム",
+    "features": "機能",
+    "demo": "デモ",
+    "contact": "連絡",
+    "donation": "寄付",
+    "download": "ダウンロード",
+    "progress": "閲覧進度"
   },
   "languages": {
     "zh-CN": "简体中文",
