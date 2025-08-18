@@ -166,7 +166,9 @@
     "followX": "关注我的 X",
     "blog": "我的博客",
     "supportDonation": "支持打赏",
-    "copyright": "© 2024 X Profile Menu. 保留所有权利。"
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "copyright": "© 2025 X Profile Menu. 保留所有权利。"
   },
   "navigation": {
     "hero": "首页",
@@ -189,5 +191,146 @@
     "shortDescription": "快速在任意推特页面通过鼠标悬停 Profile 按钮弹出快捷访问菜单。左键直接访问 Posts、Replies、Highlights、Articles、Media，右键打开 iframe 预览。",
     "siteName": "X Profile Menu",
     "imageAlt": "X Profile Menu Chrome 扩展"
+  },
+  "privacy": {
+    "title": "X Profile Menu 隐私政策",
+    "lastUpdated": "最后更新：2025年1月",
+    "introduction": {
+      "title": "简介",
+      "content": "欢迎使用 X Profile Menu，这是一个增强您 X.com（原 Twitter）浏览体验的 Chrome 浏览器扩展。在 X Profile Menu，您的隐私对我至关重要，此隐私政策概述了我在您使用浏览器扩展时如何收集、使用和保护您的个人信息。"
+    },
+    "dataCollection": {
+      "title": "信息收集和使用",
+      "content": "我致力于保护您的隐私。我的扩展采用以下数据实践："
+    },
+    "noDataCollection": {
+      "title": "不收集个人数据",
+      "content": "X Profile Menu 不收集、存储或传输任何个人信息。扩展完全在您的浏览器内运行，除了您选择访问的网站外，不与外部服务器通信。"
+    },
+    "localOperation": {
+      "title": "仅本地操作",
+      "content": "所有扩展功能都在您的浏览器中本地执行。当您使用我们的悬停菜单功能时，所有操作都在您的设备和浏览器环境中处理。"
+    },
+    "websiteInteraction": {
+      "title": "网站交互",
+      "content": "扩展仅与 X.com 页面交互以提供增强的菜单功能。它不会修改、收集或存储这些页面的任何内容。"
+    },
+    "permissions": {
+      "title": "浏览器权限",
+      "content": "我的扩展请求功能所需的最小权限：",
+      "list": [
+        "活动标签页访问：在 X.com 页面上显示悬停菜单",
+        "x.com 的主机权限：在目标网站上启用扩展功能"
+      ]
+    },
+    "thirdParty": {
+      "title": "第三方服务",
+      "content": "X Profile Menu 不与任何第三方分析服务、广告网络或数据代理商集成或共享数据。"
+    },
+    "dataRetention": {
+      "title": "数据保留",
+      "content": "由于我们不收集任何个人数据，因此不需要数据保留政策。用于扩展功能的任何临时数据在使用后立即丢弃。"
+    },
+    "security": {
+      "title": "安全性",
+      "content": "我在扩展开发中实施安全最佳实践，包括遵循 Chrome 扩展 Manifest V3 安全标准。所有代码都是开源的，可在 GitHub 上进行公开审查。"
+    },
+    "updates": {
+      "title": "政策变更",
+      "content": "我可能会不时更新此隐私政策。我将通过在我的网站上发布新政策并更新“最后更新”日期来通知用户任何变更。变更后继续使用扩展即表示接受新政策。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "content": "如果您对此隐私政策或我的数据实践有任何疑问或担忧，请通过我的 GitHub 存储库与我联系。"
+    },
+    "consent": {
+      "content": "通过使用 X Profile Menu，您同意此隐私政策并同意其条款。感谢您信任我的浏览体验！"
+    },
+    "backToHome": "返回首页"
+  },
+  "terms": {
+    "title": "X Profile Menu 服务条款",
+    "lastUpdated": "最后更新：2025年1月",
+    "introduction": {
+      "title": "条款介绍和接受",
+      "content": "欢迎使用 X Profile Menu，这是一个增强您 X.com（原 Twitter）浏览体验的 Chrome 浏览器扩展。通过安装或使用我的扩展，您同意受这些服务条款的约束。如果您不同意这些条款中的任何内容，请不要使用我的扩展。"
+    },
+    "useOfService": {
+      "title": "扩展的使用",
+      "content": "X Profile Menu 为用户提供 X.com 的增强导航工具，包括用于快速访问用户资料和内容的悬停菜单。您同意按照所有适用的地方、州、国家和国际法律法规使用该扩展。"
+    },
+    "noAccount": {
+      "title": "无需账户",
+      "content": "X Profile Menu 不需要创建账户或注册。该扩展完全在您的浏览器内运行，不收集个人信息也不需要登录凭据。"
+    },
+    "intellectualProperty": {
+      "title": "内容和知识产权",
+      "content": "通过 X Profile Menu 提供的所有内容和技术，包括但不限于扩展代码、用户界面和文档，均受版权法保护。该扩展是开源的，并在 MIT 许可证下提供。",
+      "details": [
+        "您承认扩展代码是开源的，可在 GitHub 上查看",
+        "您不得在官方渠道之外重新分发或销售该扩展",
+        "X Profile Menu 名称和品牌仍然是我的知识产权",
+        "您保留对浏览数据和活动的完全所有权"
+      ]
+    },
+    "prohibitedActivities": {
+      "title": "禁止活动",
+      "content": "您同意在使用 X Profile Menu 时不从事以下任何禁止活动：",
+      "list": [
+        "出于恶意目的对扩展进行逆向工程",
+        "试图绕过或禁用扩展安全功能",
+        "使用扩展违反 X.com 的服务条款",
+        "修改扩展代码以伤害其他用户或系统",
+        "将扩展用于任何非法或未经授权的目的",
+        "干扰 X.com 的正常运行或其他用户的体验"
+      ]
+    },
+    "privacy": {
+      "title": "隐私和数据收集",
+      "content": "X Profile Menu 在设计时考虑了隐私：",
+      "details": [
+        "不收集或存储个人数据",
+        "除了 X.com 外，不与外部服务器通信",
+        "所有功能都在您的浏览器中本地运行",
+        "无跟踪、分析或用户行为监控"
+      ],
+      "reference": "有关详细的隐私信息，请参阅我的单独隐私政策。"
+    },
+    "freeService": {
+      "title": "免费服务",
+      "content": "X Profile Menu 作为免费服务提供，无任何费用、订阅或高级功能。该扩展将为所有用户保持免费使用。"
+    },
+    "termination": {
+      "title": "终止",
+      "content": "您可以随时通过从浏览器中卸载扩展来停止使用 X Profile Menu。我保留通过官方渠道合理通知用户后停止扩展或其功能的权利。"
+    },
+    "warranties": {
+      "title": "免责声明",
+      "content": "该扩展按“现状”和“可用”基础提供。我对扩展的准确性、可靠性或可用性不作任何保证或陈述，并在法律允许的最大范围内免除所有保证。"
+    },
+    "liability": {
+      "title": "责任限制",
+      "content": "在法律允许的最大范围内，我不对因使用或无法使用扩展而产生的任何直接、间接、偶然、特殊、后果性或惩罚性损害承担责任，包括但不限于与浏览体验、数据丢失或服务中断相关的损害。"
+    },
+    "indemnification": {
+      "title": "赔偿",
+      "content": "您同意赔偿并使 X Profile Menu 的开发者免受因您使用扩展、违反这些条款或滥用扩展功能而产生的任何索赔、损害、损失、负债和费用（包括律师费）的损害。"
+    },
+    "governingLaw": {
+      "title": "适用法律和争议解决",
+      "content": "这些条款应根据适用于开源软件的国际法律进行管辖和解释。因这些条款或扩展引起的任何争议将通过善意讨论解决，如有必要，通过适当的法律渠道解决。"
+    },
+    "changes": {
+      "title": "条款变更",
+      "content": "我保留随时更新或修改这些条款的权利。更改将在我的网站上发布后立即生效。您在任何更改后继续使用扩展即表示您接受新条款。"
+    },
+    "contact": {
+      "title": "联系信息",
+      "content": "如果您对这些条款有任何疑问，请通过我的 GitHub 仓库或电子邮件与我联系。"
+    },
+    "acceptance": {
+      "content": "通过使用 X Profile Menu，您确认已阅读、理解并同意受这些服务条款的约束。感谢您选择 X Profile Menu 来增强您的 X.com 浏览体验！"
+    },
+    "backToHome": "返回首页"
   }
 }

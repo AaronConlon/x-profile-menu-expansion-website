@@ -39,6 +39,8 @@ export default async function FooterSection({ locale }) {
               <li><a href={contactConfig.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-mars-green-800 dark:hover:text-white transition-colors">{t('followX')}</a></li>
               <li><a href={contactConfig.blog} target="_blank" rel="noopener noreferrer" className="hover:text-mars-green-800 dark:hover:text-white transition-colors">{t('blog')}</a></li>
               <li><a href="#donation" className="hover:text-mars-green-800 dark:hover:text-white transition-colors">{t('supportDonation')}</a></li>
+              <li><a href={`/${locale}/privacy`} className="hover:text-mars-green-800 dark:hover:text-white transition-colors">{t('privacyPolicy')}</a></li>
+              <li><a href={`/${locale}/terms`} className="hover:text-mars-green-800 dark:hover:text-white transition-colors">{t('termsOfService')}</a></li>
             </ul>
           </div>
         </div>

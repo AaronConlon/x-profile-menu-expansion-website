@@ -166,7 +166,9 @@
     "followX": "關注我的 X",
     "blog": "我的部落格",
     "supportDonation": "支援打賞",
-    "copyright": "© 2024 X Profile Menu. 保留所有權利。"
+    "privacyPolicy": "隱私政策",
+    "termsOfService": "服務條款",
+    "copyright": "© 2025 X Profile Menu. 保留所有權利。"
   },
   "navigation": {
     "hero": "首頁",
@@ -189,5 +191,146 @@
     "shortDescription": "快速在任意推特頁面透過滑鼠懸停 Profile 按鈕彈出快捷存取選單。左鍵直接存取 Posts、Replies、Highlights、Articles、Media，右鍵開啟 iframe 預覽。",
     "siteName": "X Profile Menu",
     "imageAlt": "X Profile Menu Chrome 擴充功能"
+  },
+  "privacy": {
+    "title": "X Profile Menu 隱私政策",
+    "lastUpdated": "最後更新：2025年1月",
+    "introduction": {
+      "title": "簡介",
+      "content": "歡迎使用 X Profile Menu，這是一個增強您 X.com（原 Twitter）瀏覽體驗的 Chrome 瀏覽器擴充功能。在 X Profile Menu，您的隱私對我至關重要，此隱私政策概述了我在您使用瀏覽器擴充功能時如何收集、使用和保護您的個人資訊。"
+    },
+    "dataCollection": {
+      "title": "資訊收集和使用",
+      "content": "我致力於保護您的隱私。我的擴充功能採用以下資料實踐："
+    },
+    "noDataCollection": {
+      "title": "不收集個人資料",
+      "content": "X Profile Menu 不收集、儲存或傳輸任何個人資訊。擴充功能完全在您的瀏覽器內運行，除了您選擇存取的網站外，不與外部伺服器通訊。"
+    },
+    "localOperation": {
+      "title": "僅本地操作",
+      "content": "所有擴充功能功能都在您的瀏覽器中本地執行。當您使用我們的懸停選單功能時，所有操作都在您的裝置和瀏覽器環境中處理。"
+    },
+    "websiteInteraction": {
+      "title": "網站互動",
+      "content": "擴充功能僅與 X.com 頁面互動以提供增強的選單功能。它不會修改、收集或儲存這些頁面的任何內容。"
+    },
+    "permissions": {
+      "title": "瀏覽器權限",
+      "content": "我的擴充功能請求功能所需的最小權限：",
+      "list": [
+        "活動分頁存取：在 X.com 頁面上顯示懸停選單",
+        "x.com 的主機權限：在目標網站上啟用擴充功能功能"
+      ]
+    },
+    "thirdParty": {
+      "title": "第三方服務",
+      "content": "X Profile Menu 不與任何第三方分析服務、廣告網路或資料代理商整合或共用資料。"
+    },
+    "dataRetention": {
+      "title": "資料保留",
+      "content": "由於我們不收集任何個人資料，因此不需要資料保留政策。用於擴充功能功能的任何臨時資料在使用後立即丟棄。"
+    },
+    "security": {
+      "title": "安全性",
+      "content": "我在擴充功能開發中實施安全最佳實踐，包括遵循 Chrome 擴充功能 Manifest V3 安全標準。所有程式碼都是開源的，可在 GitHub 上進行公開審查。"
+    },
+    "updates": {
+      "title": "政策變更",
+      "content": "我可能會不時更新此隱私政策。我將透過在我的網站上發布新政策並更新「最後更新」日期來通知使用者任何變更。變更後繼續使用擴充功能即表示接受新政策。"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "content": "如果您對此隱私政策或我的資料實踐有任何疑問或擔憂，請透過我的 GitHub 儲存庫與我聯絡。"
+    },
+    "consent": {
+      "content": "透過使用 X Profile Menu，您同意此隱私政策並同意其條款。感謝您信任我的瀏覽體驗！"
+    },
+    "backToHome": "返回首頁"
+  },
+  "terms": {
+    "title": "X Profile Menu 服務條款",
+    "lastUpdated": "最後更新：2025年1月",
+    "introduction": {
+      "title": "條款介紹和接受",
+      "content": "歡迎使用 X Profile Menu，這是一個增強您 X.com（原 Twitter）瀏覽體驗的 Chrome 瀏覽器擴充功能。透過安裝或使用我的擴充功能，您同意受這些服務條款的約束。如果您不同意這些條款中的任何內容，請不要使用我的擴充功能。"
+    },
+    "useOfService": {
+      "title": "擴充功能的使用",
+      "content": "X Profile Menu 為用戶提供 X.com 的增強導航工具，包括用於快速存取用戶資料和內容的懸停選單。您同意按照所有適用的地方、州、國家和國際法律法規使用該擴充功能。"
+    },
+    "noAccount": {
+      "title": "無需帳戶",
+      "content": "X Profile Menu 不需要建立帳戶或註冊。該擴充功能完全在您的瀏覽器內運行，不收集個人資訊也不需要登入憑據。"
+    },
+    "intellectualProperty": {
+      "title": "內容和智慧財產權",
+      "content": "透過 X Profile Menu 提供的所有內容和技術，包括但不限於擴充功能程式碼、使用者介面和文件，均受版權法保護。該擴充功能是開源的，並在 MIT 授權下提供。",
+      "details": [
+        "您承認擴充功能程式碼是開源的，可在 GitHub 上查看",
+        "您不得在官方管道之外重新分發或銷售該擴充功能",
+        "X Profile Menu 名稱和品牌仍然是我的智慧財產權",
+        "您保留對瀏覽資料和活動的完全所有權"
+      ]
+    },
+    "prohibitedActivities": {
+      "title": "禁止活動",
+      "content": "您同意在使用 X Profile Menu 時不從事以下任何禁止活動：",
+      "list": [
+        "出於惡意目的對擴充功能進行逆向工程",
+        "試圖繞過或停用擴充功能安全功能",
+        "使用擴充功能違反 X.com 的服務條款",
+        "修改擴充功能程式碼以傷害其他使用者或系統",
+        "將擴充功能用於任何非法或未經授權的目的",
+        "干擾 X.com 的正常運行或其他使用者的體驗"
+      ]
+    },
+    "privacy": {
+      "title": "隱私和資料收集",
+      "content": "X Profile Menu 在設計時考慮了隱私：",
+      "details": [
+        "不收集或儲存個人資料",
+        "除了 X.com 外，不與外部伺服器通訊",
+        "所有功能都在您的瀏覽器中本地運行",
+        "無追蹤、分析或使用者行為監控"
+      ],
+      "reference": "有關詳細的隱私資訊，請參閱我的單獨隱私政策。"
+    },
+    "freeService": {
+      "title": "免費服務",
+      "content": "X Profile Menu 作為免費服務提供，無任何費用、訂閱或進階功能。該擴充功能將為所有使用者保持免費使用。"
+    },
+    "termination": {
+      "title": "終止",
+      "content": "您可以隨時透過從瀏覽器中解除安裝擴充功能來停止使用 X Profile Menu。我保留透過官方管道合理通知使用者後停止擴充功能或其功能的權利。"
+    },
+    "warranties": {
+      "title": "免責聲明",
+      "content": "該擴充功能按「現狀」和「可用」基礎提供。我對擴充功能的準確性、可靠性或可用性不作任何保證或陳述，並在法律允許的最大範圍內免除所有保證。"
+    },
+    "liability": {
+      "title": "責任限制",
+      "content": "在法律允許的最大範圍內，我不對因使用或無法使用擴充功能而產生的任何直接、間接、偶然、特殊、後果性或懲罰性損害承擔責任，包括但不限於與瀏覽體驗、資料遺失或服務中斷相關的損害。"
+    },
+    "indemnification": {
+      "title": "賠償",
+      "content": "您同意賠償並使 X Profile Menu 的開發者免受因您使用擴充功能、違反這些條款或濫用擴充功能功能而產生的任何索賠、損害、損失、負債和費用（包括律師費）的損害。"
+    },
+    "governingLaw": {
+      "title": "適用法律和爭議解決",
+      "content": "這些條款應根據適用於開源軟體的國際法律進行管轄和解釋。因這些條款或擴充功能引起的任何爭議將透過善意討論解決，如有必要，透過適當的法律管道解決。"
+    },
+    "changes": {
+      "title": "條款變更",
+      "content": "我保留隨時更新或修改這些條款的權利。更改將在我的網站上發布後立即生效。您在任何更改後繼續使用擴充功能即表示您接受新條款。"
+    },
+    "contact": {
+      "title": "聯絡資訊",
+      "content": "如果您對這些條款有任何疑問，請透過我的 GitHub 儲存庫或電子郵件與我聯絡。"
+    },
+    "acceptance": {
+      "content": "透過使用 X Profile Menu，您確認已閱讀、理解並同意受這些服務條款的約束。感謝您選擇 X Profile Menu 來增強您的 X.com 瀏覽體驗！"
+    },
+    "backToHome": "返回首頁"
   }
 }

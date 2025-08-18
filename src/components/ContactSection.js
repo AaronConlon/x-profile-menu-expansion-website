@@ -27,6 +27,44 @@ export default async function ContactSection({ locale }) {
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {t('subtitle')}
           </p>
+
+          {/* Contact Icons */}
+          <div className="flex items-center justify-center space-x-6 mt-8">
+            {/* Email Icon */}
+            <a
+              href={`mailto:${contactConfig.email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-center w-12 h-12 bg-white dark:bg-gray-800 hover:bg-mars-green-50 dark:hover:bg-mars-green-900/20 border border-gray-200 dark:border-gray-700 hover:border-mars-green-300 dark:hover:border-mars-green-600 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg"
+              title={contactConfig.email}
+            >
+              <svg
+                className="w-6 h-6 text-gray-600 dark:text-gray-400 group-hover:text-mars-green-600 dark:group-hover:text-mars-green-400 transition-colors duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </a>
+
+            {/* X (Twitter) Icon */}
+            <a
+              href={contactConfig.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-center w-12 h-12 bg-white dark:bg-gray-800 hover:bg-mars-green-50 dark:hover:bg-mars-green-900/20 border border-gray-200 dark:border-gray-700 hover:border-mars-green-300 dark:hover:border-mars-green-600 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg"
+              title={contactConfig.socialMedia.twitter}
+            >
+              <svg
+                className="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-mars-green-600 dark:group-hover:text-mars-green-400 transition-colors duration-300"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
         </div>
 
         {/* 交互式联系卡片网格 */}

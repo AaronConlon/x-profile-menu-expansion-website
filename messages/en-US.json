@@ -166,7 +166,9 @@
     "followX": "Follow My X",
     "blog": "My Blog",
     "supportDonation": "Support Donation",
-    "copyright": "© 2024 X Profile Menu. All rights reserved."
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 X Profile Menu. All rights reserved."
   },
   "navigation": {
     "hero": "Home",
@@ -189,5 +191,146 @@
     "shortDescription": "Quickly hover over the Profile button on any Twitter page to pop up a quick access menu. Left-click for direct access to Posts, Replies, Highlights, Articles, Media, right-click to open iframe preview.",
     "siteName": "X Profile Menu",
     "imageAlt": "X Profile Menu Chrome Extension"
+  },
+  "privacy": {
+    "title": "Privacy Policy for X Profile Menu",
+    "lastUpdated": "Last Updated: January 2025",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Welcome to X Profile Menu, a Chrome browser extension that enhances your X.com (formerly Twitter) browsing experience. At X Profile Menu, your privacy is of utmost importance to me, and this privacy policy outlines how I collect, use, and protect your personal information when you use my browser extension."
+    },
+    "dataCollection": {
+      "title": "Information Collection and Use",
+      "content": "I am committed to protecting your privacy. My extension operates with the following data practices:"
+    },
+    "noDataCollection": {
+      "title": "No Personal Data Collection",
+      "content": "X Profile Menu does not collect, store, or transmit any personal information. The extension operates entirely within your browser and does not communicate with external servers except for the websites you choose to visit."
+    },
+    "localOperation": {
+      "title": "Local Operation Only",
+      "content": "All extension functionality is performed locally in your browser. When you use our hover menu features, all operations are processed within your device and browser environment."
+    },
+    "websiteInteraction": {
+      "title": "Website Interaction",
+      "content": "The extension only interacts with X.com pages to provide enhanced menu functionality. It does not modify, collect, or store any content from these pages."
+    },
+    "permissions": {
+      "title": "Browser Permissions",
+      "content": "My extension requests minimal permissions necessary for functionality:",
+      "list": [
+        "Active tab access: To display hover menus on X.com pages",
+        "Host permissions for x.com: To enable extension functionality on the target website"
+      ]
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "content": "X Profile Menu does not integrate with or share data with any third-party analytics services, advertising networks, or data brokers."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "Since we do not collect any personal data, there is no data retention policy needed. Any temporary data used for extension functionality is immediately discarded after use."
+    },
+    "security": {
+      "title": "Security",
+      "content": "I implement security best practices in my extension development, including following Chrome Extension Manifest V3 security standards. All code is open source and available for public review on GitHub."
+    },
+    "updates": {
+      "title": "Changes to This Policy",
+      "content": "I may update this privacy policy from time to time. I will notify users of any changes by posting the new policy on my website and updating the \"Last Updated\" date. Continued use of the extension after changes constitutes acceptance of the new policy."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions or concerns about this privacy policy or my data practices, please contact me through my GitHub repository."
+    },
+    "consent": {
+      "content": "By using X Profile Menu, you consent to this privacy policy and agree to its terms. Thank you for trusting me with your browsing experience!"
+    },
+    "backToHome": "Back to Home"
+  },
+  "terms": {
+    "title": "Terms of Service for X Profile Menu",
+    "lastUpdated": "Last Updated: January 2025",
+    "introduction": {
+      "title": "Introduction and Acceptance of Terms",
+      "content": "Welcome to X Profile Menu, a Chrome browser extension that enhances your X.com (formerly Twitter) browsing experience. By installing or using my extension, you agree to be bound by these Terms of Service. If you do not agree with any of these terms, please do not use my extension."
+    },
+    "useOfService": {
+      "title": "Use of the Extension",
+      "content": "X Profile Menu provides users with enhanced navigation tools for X.com, including hover menus for quick access to user profiles and content. You agree to use the extension in accordance with all applicable local, state, national, and international laws and regulations."
+    },
+    "noAccount": {
+      "title": "No Account Required",
+      "content": "X Profile Menu does not require account creation or registration. The extension operates entirely within your browser without collecting personal information or requiring login credentials."
+    },
+    "intellectualProperty": {
+      "title": "Content and Intellectual Property Rights",
+      "content": "All content and technology provided through X Profile Menu, including but not limited to the extension code, user interface, and documentation, is protected under copyright law. The extension is open source and available under the MIT license.",
+      "details": [
+        "You acknowledge that the extension code is open source and available for review on GitHub",
+        "You may not redistribute or sell the extension outside of official channels",
+        "The X Profile Menu name and branding remain my intellectual property",
+        "You retain full ownership of your browsing data and activities"
+      ]
+    },
+    "prohibitedActivities": {
+      "title": "Prohibited Activities",
+      "content": "You agree not to engage in any of the following prohibited activities while using X Profile Menu:",
+      "list": [
+        "Reverse engineering the extension for malicious purposes",
+        "Attempting to bypass or disable extension security features",
+        "Using the extension to violate X.com's terms of service",
+        "Modifying the extension code to harm other users or systems",
+        "Using the extension for any illegal or unauthorized purpose",
+        "Interfering with the normal operation of X.com or other users' experiences"
+      ]
+    },
+    "privacy": {
+      "title": "Privacy and Data Collection",
+      "content": "X Profile Menu is designed with privacy in mind:",
+      "details": [
+        "No personal data collection or storage",
+        "No external server communication except for X.com",
+        "All functionality operates locally in your browser",
+        "No tracking, analytics, or user behavior monitoring"
+      ],
+      "reference": "For detailed privacy information, please refer to my separate Privacy Policy."
+    },
+    "freeService": {
+      "title": "Free Service",
+      "content": "X Profile Menu is provided as a free service with no charges, subscriptions, or premium features. The extension will remain free to use for all users."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "You may stop using X Profile Menu at any time by uninstalling the extension from your browser. I reserve the right to discontinue the extension or its features with reasonable notice to users through official channels."
+    },
+    "warranties": {
+      "title": "Disclaimer of Warranties",
+      "content": "The extension is provided on an \"as is\" and \"as available\" basis. I make no warranties or representations about the accuracy, reliability, or availability of the extension and disclaim all warranties to the fullest extent permitted by law."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "content": "To the fullest extent permitted by law, I shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use of or inability to use the extension, including but not limited to damages related to browsing experience, data loss, or service interruptions."
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify and hold harmless the developer of X Profile Menu from any claims, damages, losses, liabilities, and expenses (including attorneys' fees) arising from your use of the extension, violation of these Terms, or misuse of the extension's features."
+    },
+    "governingLaw": {
+      "title": "Governing Law and Dispute Resolution",
+      "content": "These Terms shall be governed by and construed in accordance with applicable international laws for open source software. Any disputes arising from these Terms or the extension will be resolved through good faith discussion and, if necessary, appropriate legal channels."
+    },
+    "changes": {
+      "title": "Changes to These Terms",
+      "content": "I reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting on my website. Your continued use of the extension after any changes signifies your acceptance of the new terms."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "If you have any questions about these Terms, please contact me through my GitHub repository or email."
+    },
+    "acceptance": {
+      "content": "By using X Profile Menu, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. Thank you for choosing X Profile Menu for your X.com browsing enhancement!"
+    },
+    "backToHome": "Back to Home"
   }
 }
