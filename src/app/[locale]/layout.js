@@ -27,6 +27,17 @@ export async function generateMetadata({ params }) {
     'ja-JP': 'ja_JP'
   };
 
+  // 根据locale确定OG图片
+  const ogImageMap = {
+    'zh-CN': '/zh.png',
+    'zh-TW': '/tw.png',
+    'en-US': '/en.png',
+    'ja-JP': '/jp.png'
+  };
+
+  // 获取对应语言的OG图片，如果没有则使用默认的
+  const ogImageUrl = ogImageMap[locale] || '/og.png';
+
   return {
     metadataBase: new URL('https://x-profile-menu-expansion-website.vercel.app'),
     title: t('title'),
@@ -38,7 +49,7 @@ export async function generateMetadata({ params }) {
       siteName: t('siteName'),
       images: [
         {
-          url: "/og.png",
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: t('imageAlt'),
@@ -51,7 +62,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: t('title'),
       description: t('shortDescription'),
-      images: ["/og.png"],
+      images: [ogImageUrl],
     },
     icons: {
       icon: "/x-32.png",
