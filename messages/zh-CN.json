@@ -10,10 +10,32 @@
   "hero": {
     "title": "X Profile Menu",
     "subtitle": "Chrome 浏览器插件",
-    "description": "快速在任意推特的页面通过鼠标移动到 Profile 按钮上方，弹出快捷访问 Posts、Replies、Highlights、Articles、Media、Likes 的菜单，左键点击直接访问，右键点击则打开 iframe 访问。",
+    "description": "让推特浏览更便捷。鼠标悬停弹出快捷菜单，左键直接访问，右键在小窗口中预览，不会丢失当前页面的浏览位置。",
     "downloadButton": "免费使用 ❤️",
     "demoButton": "观看演示",
-    "contactButton": "联系我"
+    "contactButton": "联系我",
+    "leftClick": {
+      "title": "左键直达",
+      "description": "点击菜单项直接跳转到对应页面，快速查看用户的帖子、回复、媒体等内容。"
+    },
+    "rightClick": {
+      "title": "右键小窗口",
+      "description": "右键点击在当前页面打开小窗口预览，小窗口记住浏览位置，主页面也保持原来的位置。"
+    },
+    "stateKeeping": {
+      "title": "🌟 记住浏览位置",
+      "description": "小窗口会记住你看到哪里，关闭后再打开还在原来位置。主页面的位置也不会变，这样就能同时浏览多个内容了。"
+    },
+    "quickStats": {
+      "hoverTime": "0.3s",
+      "hoverTimeLabel": "悬停响应时间",
+      "menuOptions": "6+",
+      "menuOptionsLabel": "快捷菜单选项",
+      "stateKeeping": "∞",
+      "stateKeepingLabel": "状态记忆能力",
+      "privacy": "100%",
+      "privacyLabel": "隐私保护"
+    }
   },
   "features": {
     "title": "革新功能体验",

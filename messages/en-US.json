@@ -10,10 +10,32 @@
   "hero": {
     "title": "X Profile Menu",
     "subtitle": "Chrome Browser Extension",
-    "description": "Quickly access Posts, Replies, Highlights, Articles, Media, and Likes through a convenient hover menu on any Twitter Profile button. Left-click for direct access, right-click for iframe preview.",
+    "description": "Make Twitter browsing easier. Hover to show quick menu, left-click for direct access, right-click for mini-window preview without losing your current page position.",
     "downloadButton": "Free to Use ❤️",
     "demoButton": "Watch Demo",
-    "contactButton": "Contact Me"
+    "contactButton": "Contact Me",
+    "leftClick": {
+      "title": "Left-Click Direct Access",
+      "description": "Click menu items to jump directly to the page, quickly view user's posts, replies, media and other content."
+    },
+    "rightClick": {
+      "title": "Right-Click Mini-Window",
+      "description": "Right-click to open a mini-window preview on current page. The mini-window remembers its position, and the main page stays where it was."
+    },
+    "stateKeeping": {
+      "title": "🌟 Remember Where You Were",
+      "description": "Mini-windows remember where you were reading. Close and reopen to find the same spot. Main page position stays unchanged too, so you can browse multiple things at once."
+    },
+    "quickStats": {
+      "hoverTime": "0.3s",
+      "hoverTimeLabel": "Hover Response Time",
+      "menuOptions": "6+",
+      "menuOptionsLabel": "Shortcut Menu Options",
+      "stateKeeping": "∞",
+      "stateKeepingLabel": "State Memory Capacity",
+      "privacy": "100%",
+      "privacyLabel": "Privacy Protection"
+    }
   },
   "features": {
     "title": "Revolutionary Feature Experience",

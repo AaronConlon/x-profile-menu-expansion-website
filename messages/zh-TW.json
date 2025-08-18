@@ -10,10 +10,32 @@
   "hero": {
     "title": "X Profile Menu",
     "subtitle": "Chrome 瀏覽器外掛",
-    "description": "快速在任意推特的頁面透過滑鼠移動到 Profile 按鈕上方，彈出快捷存取 Posts、Replies、Highlights、Articles、Media、Likes 的選單，左鍵點擊直接存取，右鍵點擊則開啟 iframe 存取。",
+    "description": "讓推特瀏覽更便捷。滑鼠懸停彈出快捷選單，左鍵直接存取，右鍵在小視窗中預覽，不會丟失當前頁面的瀏覽位置。",
     "downloadButton": "免費使用 ❤️",
     "demoButton": "觀看演示",
-    "contactButton": "聯絡我"
+    "contactButton": "聯絡我",
+    "leftClick": {
+      "title": "左鍵直達",
+      "description": "點擊選單項直接跳轉到對應頁面，快速查看使用者的貼文、回覆、媒體等內容。"
+    },
+    "rightClick": {
+      "title": "右鍵小視窗",
+      "description": "右鍵點擊在當前頁面開啟小視窗預覽，小視窗記住瀏覽位置，主頁面也保持原來的位置。"
+    },
+    "stateKeeping": {
+      "title": "🌟 記住瀏覽位置",
+      "description": "小視窗會記住你看到哪裡，關閉後再開啟還在原來位置。主頁面的位置也不會變，這樣就能同時瀏覽多個內容了。"
+    },
+    "quickStats": {
+      "hoverTime": "0.3s",
+      "hoverTimeLabel": "懸停回應時間",
+      "menuOptions": "6+",
+      "menuOptionsLabel": "快捷選單選項",
+      "stateKeeping": "∞",
+      "stateKeepingLabel": "狀態記憶能力",
+      "privacy": "100%",
+      "privacyLabel": "隱私保護"
+    }
   },
   "features": {
     "title": "革新功能體驗",
