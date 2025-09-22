@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "build:cf": "next build && echo '/* /index.html 200' > out/_redirects",
     "start": "next start",
     "lint": "next lint"
   },

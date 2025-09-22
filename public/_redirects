@@ -1,0 +1,19 @@
+# Next.js 国际化路由重定向规则
+
+# 首页重定向 - 根据 Accept-Language 头部自动跳转
+/ /en-US/ 302 Country=US
+/ /zh-CN/ 302 Country=CN
+/ /zh-TW/ 302 Country=TW,HK,MO
+/ /ja-JP/ 302 Country=JP
+/ /en-US/ 302
+
+# 隐私政策路由
+/privacy /en-US/privacy 302
+/privacy/ /en-US/privacy/ 302
+
+# 服务条款路由
+/terms /en-US/terms 302
+/terms/ /en-US/terms/ 302
+
+# 处理所有其他路由的 SPA 回退
+/* /index.html 200
