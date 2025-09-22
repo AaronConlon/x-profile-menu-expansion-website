@@ -10,7 +10,7 @@ export const contactConfig = {
   extension: {
     chromeWebStore: "https://chromewebstore.google.com/detail/xtwitter-profile-links-ex/bednclejecahegamiomcndcmhiedbffd?authuser=0&hl=en",
     manualInstall: "https://github.com/AaronConlon/x-profile-menu-expasion/releases", // 暂时为空，后续添加手动安装包下载地址
-    version: "1.0.1"
+    version: "1.1.0"
   },
 
   // 社交媒体显示名称

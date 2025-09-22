@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { Clapperboard, HandCoins, HardDriveDownload, HomeIcon, Mail, ZapIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 const NavsComponent = () => {
   const t = useTranslations('navigation');
@@ -9,12 +10,12 @@ const NavsComponent = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const navItems = [
-    { id: 'hero', icon: '🏠', label: t('hero') },
-    { id: 'features', icon: '⚡', label: t('features') },
-    { id: 'demo', icon: '🎬', label: t('demo') },
-    { id: 'contact', icon: '📧', label: t('contact') },
-    { id: 'donation', icon: '💝', label: t('donation') },
-    { id: 'download', icon: '📥', label: t('download') }
+    { id: 'hero', icon: <HomeIcon />, label: t('hero') },
+    { id: 'features', icon: <ZapIcon />, label: t('features') },
+    { id: 'demo', icon: <Clapperboard />, label: t('demo') },
+    { id: 'contact', icon: <Mail />, label: t('contact') },
+    { id: 'donation', icon: <HandCoins />, label: t('donation') },
+    { id: 'download', icon: <HardDriveDownload />, label: t('download') }
   ];
 
   useEffect(() => {
@@ -54,7 +55,7 @@ const NavsComponent = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className={`bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200/50 dark:border-gray-700/50 transition-all duration-300 ${isHovered ? 'px-4 py-3' : 'px-2 py-3'
+      <div className={`bg-transparent dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-200 dark:border-gray-700/50 transition-all duration-300 ${isHovered ? 'px-4 py-3' : 'px-2 py-3'
         }`}>
         <nav className="space-y-2">
           {navItems.map((item, index) => (

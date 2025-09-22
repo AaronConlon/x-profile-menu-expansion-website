@@ -10,20 +10,20 @@
   "hero": {
     "title": "X Profile Menu",
     "subtitle": "Chrome 瀏覽器外掛",
-    "description": "讓推特瀏覽更便捷。滑鼠懸停彈出快捷選單，左鍵直接存取，右鍵在小視窗中預覽，不會丟失當前頁面的瀏覽位置。",
+    "description": "讓推特瀏覽更便捷。滑鼠懸停彈出快捷選單，左鍵直接存取，同時支援在小視窗中開啟獨立頁面，不會丟失當前頁面的瀏覽位置。",
     "downloadButton": "免費使用 ❤️",
     "demoButton": "觀看演示",
     "contactButton": "聯絡我",
     "leftClick": {
-      "title": "左鍵直達",
+      "title": "Profile 直達",
       "description": "點擊選單項直接跳轉到對應頁面，快速查看使用者的貼文、回覆、媒體等內容。"
     },
     "rightClick": {
-      "title": "右鍵小視窗",
-      "description": "右鍵點擊在當前頁面開啟小視窗預覽，小視窗記住瀏覽位置，主頁面也保持原來的位置。"
+      "title": "獨立小視窗",
+      "description": "點擊選單項在當前頁面開啟小視窗預覽，小視窗記住瀏覽位置，主頁面也保持原來的位置。"
     },
     "stateKeeping": {
-      "title": "🌟 記住瀏覽位置",
+      "title": "記住瀏覽位置",
       "description": "小視窗會記住你看到哪裡，關閉後再開啟還在原來位置。主頁面的位置也不會變，這樣就能同時瀏覽多個內容了。"
     },
     "quickStats": {
@@ -47,8 +47,8 @@
     },
     "dualMode": {
       "title": "雙擊存取模式",
-      "description": "左鍵點擊選單項直接跳轉到對應頁面，右鍵點擊則在當前頁面開啟 iframe 預覽，靈活滿足不同使用需求。",
-      "demo": "左鍵：新分頁開啟，右鍵：當前頁面 iframe 彈窗預覽"
+      "description": "左鍵點擊快捷選單項直接跳轉到對應頁面，點擊 Profile Sandbox 則在當前頁面開啟 iframe 預覽，靈活滿足不同使用需求。",
+      "demo": "快捷連結：新分頁開啟，Profile Sandbox：當前頁面 iframe 彈窗預覽"
     },
     "openSource": {
       "title": "開源透明",
@@ -85,12 +85,12 @@
       "description": "將滑鼠懸停在任意 Profile 按鈕上方，自動彈出快捷選單"
     },
     "step2": {
-      "title": "左鍵直達",
-      "description": "左鍵點擊選單項（Posts、Replies、Media等）直接跳轉頁面"
+      "title": "快捷選單直達",
+      "description": "左鍵點擊快捷選單項（Posts、Replies、Media 等）直接跳轉頁面"
     },
     "step3": {
-      "title": "右鍵預覽",
-      "description": "右鍵點擊選單項在當前頁面開啟 iframe 預覽，無需離開當前環境"
+      "title": "Profile Sandbox 預覽",
+      "description": "點擊 Profile Sandbox 選單項在當前頁面開啟 iframe 預覽，無需離開當前環境"
     },
     "imageAlt1": "X Profile Menu 懸停選單演示",
     "imageAlt2": "X Profile Menu iframe 預覽演示",
@@ -194,7 +194,7 @@
   },
   "privacy": {
     "title": "X Profile Menu 隱私政策",
-    "lastUpdated": "最後更新：2025年1月",
+    "lastUpdated": "最後更新：2025 年 1 月",
     "introduction": {
       "title": "簡介",
       "content": "歡迎使用 X Profile Menu，這是一個增強您 X.com（原 Twitter）瀏覽體驗的 Chrome 瀏覽器擴充功能。在 X Profile Menu，您的隱私對我至關重要，此隱私政策概述了我在您使用瀏覽器擴充功能時如何收集、使用和保護您的個人資訊。"
@@ -250,7 +250,7 @@
   },
   "terms": {
     "title": "X Profile Menu 服務條款",
-    "lastUpdated": "最後更新：2025年1月",
+    "lastUpdated": "最後更新：2025 年 1 月",
     "introduction": {
       "title": "條款介紹和接受",
       "content": "歡迎使用 X Profile Menu，這是一個增強您 X.com（原 Twitter）瀏覽體驗的 Chrome 瀏覽器擴充功能。透過安裝或使用我的擴充功能，您同意受這些服務條款的約束。如果您不同意這些條款中的任何內容，請不要使用我的擴充功能。"

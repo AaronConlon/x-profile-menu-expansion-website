@@ -1,183 +1,183 @@
 {
   "header": {
     "title": "X Profile Menu",
-    "subtitle": "Chrome Browser Extension",
-    "blog": "My Blog",
-    "chromeStore": "Chrome Store",
-    "sourceCode": "Source Code",
-    "language": "Language"
+    "subtitle": "Chrome ブラウザ拡張",
+    "blog": "私のブログ",
+    "chromeStore": "Chrome ストア",
+    "sourceCode": "ソースコード",
+    "language": "言語"
   },
   "hero": {
     "title": "X Profile Menu",
-    "subtitle": "Chrome Browser Extension",
-    "description": "Make Twitter browsing easier. Hover to show quick menu, left-click for direct access, right-click for mini-window preview without losing your current page position.",
-    "downloadButton": "Free to Use ❤️",
-    "demoButton": "Watch Demo",
-    "contactButton": "Contact Me",
+    "subtitle": "Chrome ブラウザ拡張",
+    "description": "Twitter ブラウジングをもっと便利に。マウスホバーでクイックメニュー表示、左クリックで直接アクセス、同時にミニウィンドウで独立ページを開くことをサポートし、現在のページ位置を失いません。",
+    "downloadButton": "無料で使用 ❤️",
+    "demoButton": "デモを見る",
+    "contactButton": "お問い合わせ",
     "leftClick": {
-      "title": "Left-Click Direct Access",
-      "description": "Click menu items to jump directly to the page, quickly view user's posts, replies, media and other content."
+      "title": "プロフィール直接アクセス",
+      "description": "メニュー項目をクリックして対応ページに直接ジャンプ、ユーザーの投稿、返信、メディアなどのコンテンツを素早く閲覧。"
     },
     "rightClick": {
-      "title": "Right-Click Mini-Window",
-      "description": "Right-click to open a mini-window preview on current page. The mini-window remembers its position, and the main page stays where it was."
+      "title": "独立ミニウィンドウ",
+      "description": "メニュー項目をクリックして現在のページにミニウィンドウプレビューを開く。ミニウィンドウは閲覧位置を記憶し、メインページも元の位置を保持。"
     },
     "stateKeeping": {
-      "title": "🌟 Remember Where You Were",
-      "description": "Mini-windows remember where you were reading. Close and reopen to find the same spot. Main page position stays unchanged too, so you can browse multiple things at once."
+      "title": "閲覧位置を記憶",
+      "description": "ミニウィンドウはどこまで見たかを覚えています。閉じて再度開いても同じ場所に戻ります。メインページの位置も変わらないので、複数のコンテンツを同時に閲覧できます。"
     },
     "quickStats": {
       "hoverTime": "0.3s",
-      "hoverTimeLabel": "Hover Response Time",
+      "hoverTimeLabel": "ホバー応答時間",
       "menuOptions": "6+",
-      "menuOptionsLabel": "Shortcut Menu Options",
+      "menuOptionsLabel": "ショートカットメニューオプション",
       "stateKeeping": "∞",
-      "stateKeepingLabel": "State Memory Capacity",
+      "stateKeepingLabel": "状態メモリ容量",
       "privacy": "100%",
-      "privacyLabel": "Privacy Protection"
+      "privacyLabel": "プライバシー保護"
     }
   },
   "features": {
-    "title": "Revolutionary Feature Experience",
-    "subtitle": "Five core feature characteristics, carefully designed to enhance your X.com experience, making every interaction smarter and more efficient",
+    "title": "革新的な機能体験",
+    "subtitle": "X.com での体験を向上させるために精密に設計された 5 つのコア機能特性により、すべてのインタラクションがよりスマートで効率的になります",
     "hoverMenu": {
-      "title": "Hover Shortcut Menu",
-      "description": "Hover over any Profile button to instantly display an intelligent quick access menu, including Posts, Replies, Highlights, Articles, Media, Likes options.",
-      "demo": "Menu automatically appears 0.3 seconds after hovering, supports ESC key for quick close"
+      "title": "ホバーショートカットメニュー",
+      "description": "任意の Profile ボタンにマウスを重ねると、Posts、Replies、Highlights、Articles、Media、Likes オプションを含むインテリジェントなクイックアクセスメニューが瞬時に表示されます。",
+      "demo": "ホバー後 0.3 秒で自動表示、ESC キーでクイック閉じをサポート"
     },
     "dualMode": {
-      "title": "Dual Click Access Mode",
-      "description": "Left-click menu items to directly jump to corresponding pages, right-click to open iframe preview in current page, flexibly meeting different usage needs.",
-      "demo": "Left-click: open in new tab, Right-click: iframe popup preview in current page"
+      "title": "デュアルクリックアクセスモード",
+      "description": "メニュー項目を左クリックで対応ページに直接ジャンプ、右クリックで現在のページで iframe プレビューを開き、さまざまな使用ニーズに柔軟に対応。",
+      "demo": "左クリック：新しいタブで開く、右クリック：現在のページで iframe ポップアッププレビュー"
     },
     "openSource": {
-      "title": "Open Source Transparency",
-      "description": "Completely open source project, welcoming community contributions and improvements. You can view source code, submit issues, and participate in development on GitHub.",
-      "demo": "MIT open source license, supports Fork, Star, PR contributions, active developer community"
+      "title": "オープンソース透明性",
+      "description": "完全にオープンソースのプロジェクトで、コミュニティの貢献と改善を歓迎します。GitHub でソースコードを閲覧し、問題を提出し、開発に参加できます。",
+      "demo": "MIT オープンソースライセンス、Fork、Star、PR 貢献をサポート、活発な開発者コミュニティ"
     },
     "privacy": {
-      "title": "Privacy Security",
-      "description": "Follows Chrome extension security standards, collects no personal data, all operations completed locally, ensuring your privacy and data security.",
-      "demo": "Zero data collection, local processing, passed Chrome Web Store security review"
+      "title": "プライバシーセキュリティ",
+      "description": "Chrome 拡張セキュリティ標準に従い、個人データを収集せず、すべての操作をローカルで完了し、プライバシーとデータセキュリティを確保します。",
+      "demo": "データ収集ゼロ、ローカル処理、Chrome Web Store セキュリティ審査合格"
     },
     "lightweight": {
-      "title": "Lightweight Efficiency",
-      "description": "Uses minimal system resources, fast response speed, startup time under 100ms, won't affect browser performance and normal usage experience.",
-      "demo": "Memory usage < 5MB, CPU usage < 1%, supports browser hardware acceleration"
+      "title": "軽量高効率",
+      "description": "最小限のシステムリソースを使用し、高速な応答速度、100ms 未満の起動時間で、ブラウザのパフォーマンスと通常の使用体験に影響しません。",
+      "demo": "メモリ使用量 < 5MB、CPU 使用率 < 1%、ブラウザハードウェアアクセラレーションをサポート"
     },
     "stats": {
       "responseTime": "0.3s",
-      "responseTimeLabel": "Menu Response Time",
+      "responseTimeLabel": "メニュー応答時間",
       "options": "6",
-      "optionsLabel": "Quick Access Options",
+      "optionsLabel": "クイックアクセスオプション",
       "privacy": "100%",
-      "privacyLabel": "Privacy Protection",
+      "privacyLabel": "プライバシー保護",
       "free": "∞",
-      "freeLabel": "Free to Use"
+      "freeLabel": "無料使用"
     }
   },
   "demo": {
-    "title": "Extension Demo",
-    "subtitle": "See how X Profile Menu simplifies your social media experience",
-    "operationTitle": "Smart Shortcut Menu Operation",
+    "title": "拡張デモ",
+    "subtitle": "X Profile Menu がソーシャルメディア体験をどのように簡素化するかをご覧ください",
+    "operationTitle": "スマートショートカットメニュー操作",
     "step1": {
-      "title": "Hover Activation",
-      "description": "Hover mouse over any Profile button to automatically display shortcut menu"
+      "title": "ホバー起動",
+      "description": "任意の Profile ボタンにマウスを重ねると、ショートカットメニューが自動表示されます"
     },
     "step2": {
-      "title": "Left-click Direct Access",
-      "description": "Left-click menu items (Posts, Replies, Media, etc.) to directly jump to pages"
+      "title": "左クリック直接アクセス",
+      "description": "メニュー項目（Posts、Replies、Media など）を左クリックでページに直接ジャンプ"
     },
     "step3": {
-      "title": "Right-click Preview",
-      "description": "Right-click menu items to open iframe preview in current page without leaving current environment"
+      "title": "右クリックプレビュー",
+      "description": "メニュー項目を右クリックで現在のページで iframe プレビューを開き、現在の環境から離れる必要がありません"
     },
-    "imageAlt1": "X Profile Menu hover menu demo",
-    "imageAlt2": "X Profile Menu iframe preview demo",
-    "imageCaption": "💡 Real extension demo screenshots - hover menu and iframe preview features"
+    "imageAlt1": "X Profile Menu ホバーメニューデモ",
+    "imageAlt2": "X Profile Menu iframe プレビューデモ",
+    "imageCaption": "💡 実際の拡張デモスクリーンショット - ホバーメニューと iframe プレビュー機能"
   },
   "contact": {
-    "title": "Contact Me",
-    "subtitle": "Feel free to contact me and share your thoughts and suggestions. I highly value every user's feedback, let's make this extension better together",
+    "title": "お問い合わせ",
+    "subtitle": "お気軽にお問い合わせいただき、ご意見やご提案をお聞かせください。すべてのユーザーからのフィードバックを大切にし、一緒にこの拡張をより良くしましょう",
     "email": {
-      "title": "Email Contact",
-      "description": "For any questions or suggestions, feel free to email me anytime. I will reply to your message as soon as possible.",
-      "button": "Contact Now"
+      "title": "メール連絡",
+      "description": "ご質問やご提案がございましたら、いつでもメールでお気軽にお問い合わせください。できるだけ早くお返事いたします。",
+      "button": "今すぐ連絡"
     },
     "twitter": {
-      "title": "Follow My X",
-      "description": "Get latest updates and technical sharing, learn about the stories and technical details behind extension development."
+      "title": "私の X をフォロー",
+      "description": "最新のアップデートと技術的な共有を取得し、拡張開発の背後にあるストーリーと技術的な詳細について学びます。"
     },
     "github": {
-      "title": "View Source Code",
-      "description": "Completely open source project, welcoming community contributions and improvements. View code, submit PRs, let's make the project better together."
+      "title": "ソースコードを見る",
+      "description": "完全にオープンソースのプロジェクトで、コミュニティの貢献と改善を歓迎します。コードを閲覧し、PR を提出し、一緒にプロジェクトを向上させましょう。"
     },
     "stats": {
       "responseTime": "24h",
-      "responseTimeLabel": "Email Response Time",
+      "responseTimeLabel": "メール応答時間",
       "openSource": "Open",
-      "openSourceLabel": "Source Code Open",
+      "openSourceLabel": "ソースコード公開",
       "community": "Active",
-      "communityLabel": "Active Community Support"
+      "communityLabel": "活発なコミュニティサポート"
     }
   },
   "donation": {
-    "title": "Support Me",
-    "message": "If this extension is helpful to you, welcome to support my development work through the following ways!",
-    "addressTitle": "EVM Address Donation",
-    "networksSupport": "Supports the following networks",
-    "copyButton": "Copy Address",
-    "copyTip": "💡 Click the right button to copy address to clipboard",
+    "title": "サポートする",
+    "message": "この拡張がお役に立てれば、以下の方法で私の開発活動をサポートしていただけます！",
+    "addressTitle": "EVM アドレス寄付",
+    "networksSupport": "以下のネットワークをサポート",
+    "copyButton": "アドレスをコピー",
+    "copyTip": "💡 右のボタンをクリックしてアドレスをクリップボードにコピー",
     "binance": {
-      "support": "Binance Transfer Support",
+      "support": "Binance 送金サポート",
       "id": "Binance ID",
-      "copy": "Click to Copy",
-      "copied": "Copied!"
+      "copy": "クリックしてコピー",
+      "copied": "コピーしました！"
     },
-    "thankYouTitle": "Thank You for Your Support",
-    "thankYouMessage": "Your donation will help me continuously improve and maintain this project, providing better experience for more users. Every support is my motivation to move forward!"
+    "thankYouTitle": "ご支援ありがとうございます",
+    "thankYouMessage": "あなたのご寄付は、このプロジェクトの継続的な改善と維持に役立ち、より多くのユーザーにより良い体験を提供します。すべてのサポートが私の前進の原動力です！"
   },
   "download": {
-    "title": "Start Using Now",
-    "subtitle": "Download X Profile Menu for free to enhance your X.com experience",
-    "chromeStore": "Chrome Web Store",
-    "chromeStoreDesc": "Official channel, safe and reliable, automatic updates",
-    "manualInstall": "Manual Installation",
-    "manualInstallDesc": "Download .crx file, manual installation",
-    "version": "Current Version",
-    "downloadButton": "Go to Download",
-    "downloadFile": "Download File",
-    "comingSoon": "Coming Soon",
-    "offlineSupport": "Supports offline installation",
+    "title": "今すぐ使い始める",
+    "subtitle": "X Profile Menu を無料でダウンロードして、X.com 体験を向上させましょう",
+    "chromeStore": "Chrome ウェブストア",
+    "chromeStoreDesc": "公式チャンネル、安全で信頼性があり、自動更新",
+    "manualInstall": "手動インストール",
+    "manualInstallDesc": ".crx ファイルをダウンロード、手動インストール",
+    "version": "現在のバージョン",
+    "downloadButton": "ダウンロードに移動",
+    "downloadFile": "ファイルをダウンロード",
+    "comingSoon": "近日提供予定",
+    "offlineSupport": "オフラインインストールをサポート",
     "installGuide": {
-      "title": "Installation Guide",
-      "description": "Extension has been published on Chrome Web Store (version {version}). After installation, please refresh the browser on X.com page, then hover mouse over any Profile button to experience the smart shortcut menu."
+      "title": "インストールガイド",
+      "description": "拡張は Chrome ウェブストアで公開されています（バージョン {version}）。インストール後、X.com ページでブラウザを更新し、任意の Profile ボタンにマウスを重ねてスマートショートカットメニューを体験してください。"
     }
   },
   "footer": {
-    "description": "Simplify your X.com social media experience, one-click access to personal profile pages.",
-    "quickLinks": "Quick Links",
-    "externalLinks": "External Links",
-    "features": "Features",
-    "demo": "Demo",
-    "contact": "Contact",
-    "downloadInstall": "Download & Install",
-    "githubSource": "GitHub Source",
-    "followX": "Follow My X",
-    "blog": "My Blog",
-    "supportDonation": "Support Donation",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "copyright": "© 2025 X Profile Menu. All rights reserved."
+    "description": "X.com ソーシャルメディア体験を簡素化し、個人プロフィールページへのワンクリックアクセス。",
+    "quickLinks": "クイックリンク",
+    "externalLinks": "外部リンク",
+    "features": "機能",
+    "demo": "デモ",
+    "contact": "お問い合わせ",
+    "downloadInstall": "ダウンロード・インストール",
+    "githubSource": "GitHub ソース",
+    "followX": "私の X をフォロー",
+    "blog": "私のブログ",
+    "supportDonation": "サポート寄付",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "copyright": "© 2025 X Profile Menu. 全著作権所有。"
   },
   "navigation": {
-    "hero": "Home",
-    "features": "Features",
-    "demo": "Demo",
-    "contact": "Contact",
-    "donation": "Donation",
-    "download": "Download",
-    "progress": "Browse Progress"
+    "hero": "ホーム",
+    "features": "機能",
+    "demo": "デモ",
+    "contact": "連絡",
+    "donation": "寄付",
+    "download": "ダウンロード",
+    "progress": "閲覧進度"
   },
   "languages": {
     "zh-CN": "简体中文",
@@ -186,151 +186,151 @@
     "ja-JP": "日本語"
   },
   "metadata": {
-    "title": "X Profile Menu - Chrome Browser Extension",
-    "description": "Quickly hover over the Profile button on any Twitter page to pop up a quick access menu. Left-click for direct access to Posts, Replies, Highlights, Articles, Media, Likes, right-click to open iframe preview.",
-    "shortDescription": "Quickly hover over the Profile button on any Twitter page to pop up a quick access menu. Left-click for direct access to Posts, Replies, Highlights, Articles, Media, right-click to open iframe preview.",
+    "title": "X Profile Menu - Chrome ブラウザ拡張機能",
+    "description": "任意の Twitter ページで Profile ボタンにマウスをホバーすると、クイックアクセスメニューがポップアップ表示されます。左クリックで Posts、Replies、Highlights、Articles、Media、Likes に直接アクセス、右クリックで iframe プレビューを開きます。",
+    "shortDescription": "任意の Twitter ページで Profile ボタンにマウスをホバーすると、クイックアクセスメニューがポップアップ表示されます。左クリックで Posts、Replies、Highlights、Articles、Media に直接アクセス、右クリックで iframe プレビューを開きます。",
     "siteName": "X Profile Menu",
-    "imageAlt": "X Profile Menu Chrome Extension"
+    "imageAlt": "X Profile Menu Chrome 拡張機能"
   },
   "privacy": {
-    "title": "Privacy Policy for X Profile Menu",
-    "lastUpdated": "Last Updated: January 2025",
+    "title": "X Profile Menu プライバシーポリシー",
+    "lastUpdated": "最終更新：2025 年 1 月",
     "introduction": {
-      "title": "Introduction",
-      "content": "Welcome to X Profile Menu, a Chrome browser extension that enhances your X.com (formerly Twitter) browsing experience. At X Profile Menu, your privacy is of utmost importance to me, and this privacy policy outlines how I collect, use, and protect your personal information when you use my browser extension."
+      "title": "はじめに",
+      "content": "X Profile Menu へようこそ。これは、X.com（旧 Twitter）のブラウジング体験を向上させる Chrome ブラウザ拡張機能です。X Profile Menu では、お客様のプライバシーが最も重要であり、このプライバシーポリシーは、ブラウザ拡張機能をご利用いただく際に、個人情報をどのように収集、使用、保護するかを概説しています。"
     },
     "dataCollection": {
-      "title": "Information Collection and Use",
-      "content": "I am committed to protecting your privacy. My extension operates with the following data practices:"
+      "title": "情報の収集と使用",
+      "content": "私はお客様のプライバシーの保護に努めています。私の拡張機能は以下のデータ慣行で動作します："
     },
     "noDataCollection": {
-      "title": "No Personal Data Collection",
-      "content": "X Profile Menu does not collect, store, or transmit any personal information. The extension operates entirely within your browser and does not communicate with external servers except for the websites you choose to visit."
+      "title": "個人データの収集なし",
+      "content": "X Profile Menu は個人情報を収集、保存、送信しません。拡張機能は完全にお客様のブラウザ内で動作し、お客様が選択して訪問するウェブサイト以外の外部サーバーとは通信しません。"
     },
     "localOperation": {
-      "title": "Local Operation Only",
-      "content": "All extension functionality is performed locally in your browser. When you use our hover menu features, all operations are processed within your device and browser environment."
+      "title": "ローカル操作のみ",
+      "content": "すべての拡張機能はお客様のブラウザでローカルに実行されます。ホバーメニュー機能をご利用いただく際、すべての操作はお客様のデバイスとブラウザ環境内で処理されます。"
     },
     "websiteInteraction": {
-      "title": "Website Interaction",
-      "content": "The extension only interacts with X.com pages to provide enhanced menu functionality. It does not modify, collect, or store any content from these pages."
+      "title": "ウェブサイトとの相互作用",
+      "content": "拡張機能は、拡張メニュー機能を提供するために X.com ページとのみ相互作用します。これらのページからコンテンツを変更、収集、保存することはありません。"
     },
     "permissions": {
-      "title": "Browser Permissions",
-      "content": "My extension requests minimal permissions necessary for functionality:",
+      "title": "ブラウザ権限",
+      "content": "私の拡張機能は機能に必要な最小限の権限を要求します：",
       "list": [
-        "Active tab access: To display hover menus on X.com pages",
-        "Host permissions for x.com: To enable extension functionality on the target website"
+        "アクティブタブアクセス：X.com ページでホバーメニューを表示するため",
+        "x.com のホスト権限：対象ウェブサイトで拡張機能を有効にするため"
       ]
     },
     "thirdParty": {
-      "title": "Third-Party Services",
-      "content": "X Profile Menu does not integrate with or share data with any third-party analytics services, advertising networks, or data brokers."
+      "title": "第三者サービス",
+      "content": "X Profile Menu は、第三者の分析サービス、広告ネットワーク、またはデータブローカーとの統合やデータ共有を行いません。"
     },
     "dataRetention": {
-      "title": "Data Retention",
-      "content": "Since we do not collect any personal data, there is no data retention policy needed. Any temporary data used for extension functionality is immediately discarded after use."
+      "title": "データ保持",
+      "content": "個人データを収集しないため、データ保持ポリシーは必要ありません。拡張機能で使用される一時的なデータは、使用後直ちに破棄されます。"
     },
     "security": {
-      "title": "Security",
-      "content": "I implement security best practices in my extension development, including following Chrome Extension Manifest V3 security standards. All code is open source and available for public review on GitHub."
+      "title": "セキュリティ",
+      "content": "Chrome 拡張機能 Manifest V3 セキュリティ標準の遵守を含む、拡張機能開発におけるセキュリティのベストプラクティスを実装しています。すべてのコードはオープンソースで、GitHub で公開レビューが可能です。"
     },
     "updates": {
-      "title": "Changes to This Policy",
-      "content": "I may update this privacy policy from time to time. I will notify users of any changes by posting the new policy on my website and updating the \"Last Updated\" date. Continued use of the extension after changes constitutes acceptance of the new policy."
+      "title": "ポリシーの変更",
+      "content": "このプライバシーポリシーを随時更新する場合があります。私のウェブサイトに新しいポリシーを投稿し、「最終更新」日付を更新することで、ユーザーに変更をお知らせします。変更後の拡張機能の継続使用は、新しいポリシーの受諾を意味します。"
     },
     "contact": {
-      "title": "Contact Us",
-      "content": "If you have any questions or concerns about this privacy policy or my data practices, please contact me through my GitHub repository."
+      "title": "お問い合わせ",
+      "content": "このプライバシーポリシーまたは私のデータ慣行についてご質問やご懸念がございましたら、GitHub リポジトリからお気軽にお問い合わせください。"
     },
     "consent": {
-      "content": "By using X Profile Menu, you consent to this privacy policy and agree to its terms. Thank you for trusting me with your browsing experience!"
+      "content": "X Profile Menu をご利用いただくことで、このプライバシーポリシーに同意し、その条項に同意したことになります。私のブラウジング体験を信頼していただき、ありがとうございます！"
     },
-    "backToHome": "Back to Home"
+    "backToHome": "ホームに戻る"
   },
   "terms": {
-    "title": "Terms of Service for X Profile Menu",
-    "lastUpdated": "Last Updated: January 2025",
+    "title": "X Profile Menu 利用規約",
+    "lastUpdated": "最終更新：2025 年 1 月",
     "introduction": {
-      "title": "Introduction and Acceptance of Terms",
-      "content": "Welcome to X Profile Menu, a Chrome browser extension that enhances your X.com (formerly Twitter) browsing experience. By installing or using my extension, you agree to be bound by these Terms of Service. If you do not agree with any of these terms, please do not use my extension."
+      "title": "規約の紹介と受諾",
+      "content": "X Profile Menu へようこそ。これは、X.com（旧 Twitter）のブラウジング体験を向上させる Chrome ブラウザ拡張機能です。私の拡張機能をインストールまたは使用することで、これらの利用規約に拘束されることに同意します。これらの規約のいずれかに同意しない場合は、私の拡張機能を使用しないでください。"
     },
     "useOfService": {
-      "title": "Use of the Extension",
-      "content": "X Profile Menu provides users with enhanced navigation tools for X.com, including hover menus for quick access to user profiles and content. You agree to use the extension in accordance with all applicable local, state, national, and international laws and regulations."
+      "title": "拡張機能の使用",
+      "content": "X Profile Menu は、ユーザープロフィールやコンテンツへの迅速なアクセスのためのホバーメニューを含む、X.com のための拡張ナビゲーションツールをユーザーに提供します。適用されるすべての地方、州、国家、および国際的な法律および規制に従って拡張機能を使用することに同意します。"
     },
     "noAccount": {
-      "title": "No Account Required",
-      "content": "X Profile Menu does not require account creation or registration. The extension operates entirely within your browser without collecting personal information or requiring login credentials."
+      "title": "アカウント不要",
+      "content": "X Profile Menu は、アカウント作成や登録を必要としません。拡張機能は完全にブラウザ内で動作し、個人情報を収集したり、ログイン認証情報を必要としたりしません。"
     },
     "intellectualProperty": {
-      "title": "Content and Intellectual Property Rights",
-      "content": "All content and technology provided through X Profile Menu, including but not limited to the extension code, user interface, and documentation, is protected under copyright law. The extension is open source and available under the MIT license.",
+      "title": "コンテンツと知的財産権",
+      "content": "X Profile Menu を通じて提供されるすべてのコンテンツと技術（拡張機能コード、ユーザーインターフェース、ドキュメントを含むがこれらに限定されない）は、著作権法で保護されています。拡張機能はオープンソースで、MIT ライセンスの下で提供されています。",
       "details": [
-        "You acknowledge that the extension code is open source and available for review on GitHub",
-        "You may not redistribute or sell the extension outside of official channels",
-        "The X Profile Menu name and branding remain my intellectual property",
-        "You retain full ownership of your browsing data and activities"
+        "拡張機能コードがオープンソースであり、GitHub で確認できることを承認します",
+        "公式チャネル以外で拡張機能を再配布または販売することはできません",
+        "X Profile Menu の名前とブランディングは私の知的財産のままです",
+        "ブラウジングデータと活動の完全な所有権を保持します"
       ]
     },
     "prohibitedActivities": {
-      "title": "Prohibited Activities",
-      "content": "You agree not to engage in any of the following prohibited activities while using X Profile Menu:",
+      "title": "禁止活動",
+      "content": "X Profile Menu を使用する際に、以下の禁止活動のいずれも行わないことに同意します：",
       "list": [
-        "Reverse engineering the extension for malicious purposes",
-        "Attempting to bypass or disable extension security features",
-        "Using the extension to violate X.com's terms of service",
-        "Modifying the extension code to harm other users or systems",
-        "Using the extension for any illegal or unauthorized purpose",
-        "Interfering with the normal operation of X.com or other users' experiences"
+        "悪意のある目的での拡張機能のリバースエンジニアリング",
+        "拡張機能のセキュリティ機能のバイパスまたは無効化の試み",
+        "X.com の利用規約に違反する拡張機能の使用",
+        "他のユーザーやシステムに害を与えるための拡張機能コードの変更",
+        "違法または無許可の目的での拡張機能の使用",
+        "X.com の正常な動作や他のユーザーの体験への干渉"
       ]
     },
     "privacy": {
-      "title": "Privacy and Data Collection",
-      "content": "X Profile Menu is designed with privacy in mind:",
+      "title": "プライバシーとデータ収集",
+      "content": "X Profile Menu はプライバシーを考慮して設計されています：",
       "details": [
-        "No personal data collection or storage",
-        "No external server communication except for X.com",
-        "All functionality operates locally in your browser",
-        "No tracking, analytics, or user behavior monitoring"
+        "個人データの収集や保存は行いません",
+        "X.com 以外の外部サーバーとの通信はありません",
+        "すべての機能はブラウザ内でローカルに動作します",
+        "トラッキング、分析、ユーザー行動監視はありません"
       ],
-      "reference": "For detailed privacy information, please refer to my separate Privacy Policy."
+      "reference": "詳細なプライバシー情報については、私の別のプライバシーポリシーをご参照ください。"
     },
     "freeService": {
-      "title": "Free Service",
-      "content": "X Profile Menu is provided as a free service with no charges, subscriptions, or premium features. The extension will remain free to use for all users."
+      "title": "無料サービス",
+      "content": "X Profile Menu は、料金、サブスクリプション、プレミアム機能なしの無料サービスとして提供されます。拡張機能はすべてのユーザーに対して無料で使用できます。"
     },
     "termination": {
-      "title": "Termination",
-      "content": "You may stop using X Profile Menu at any time by uninstalling the extension from your browser. I reserve the right to discontinue the extension or its features with reasonable notice to users through official channels."
+      "title": "終了",
+      "content": "ブラウザから拡張機能をアンインストールすることで、いつでも X Profile Menu の使用を停止できます。公式チャネルを通じてユーザーに合理的な通知を行った後、拡張機能またはその機能を中止する権利を留保します。"
     },
     "warranties": {
-      "title": "Disclaimer of Warranties",
-      "content": "The extension is provided on an \"as is\" and \"as available\" basis. I make no warranties or representations about the accuracy, reliability, or availability of the extension and disclaim all warranties to the fullest extent permitted by law."
+      "title": "保証の免責",
+      "content": "拡張機能は「現状のまま」および「利用可能な状態で」提供されます。拡張機能の正確性、信頼性、または可用性について保証や表明を行わず、法律で許可される最大限の範囲ですべての保証を免責します。"
     },
     "liability": {
-      "title": "Limitation of Liability",
-      "content": "To the fullest extent permitted by law, I shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use of or inability to use the extension, including but not limited to damages related to browsing experience, data loss, or service interruptions."
+      "title": "責任の制限",
+      "content": "法律で許可される最大限の範囲で、ブラウジング体験、データ損失、またはサービス中断に関連する損害を含むがこれらに限定されない、拡張機能の使用または使用不能から生じる直接的、間接的、偶発的、特別、結果的、または懲罰的損害について責任を負いません。"
     },
     "indemnification": {
-      "title": "Indemnification",
-      "content": "You agree to indemnify and hold harmless the developer of X Profile Menu from any claims, damages, losses, liabilities, and expenses (including attorneys' fees) arising from your use of the extension, violation of these Terms, or misuse of the extension's features."
+      "title": "補償",
+      "content": "拡張機能の使用、これらの規約の違反、または拡張機能の機能の悪用から生じる請求、損害、損失、負債、および費用（弁護士費用を含む）から、X Profile Menu の開発者を補償し、無害に保つことに同意します。"
     },
     "governingLaw": {
-      "title": "Governing Law and Dispute Resolution",
-      "content": "These Terms shall be governed by and construed in accordance with applicable international laws for open source software. Any disputes arising from these Terms or the extension will be resolved through good faith discussion and, if necessary, appropriate legal channels."
+      "title": "準拠法と紛争解決",
+      "content": "これらの規約は、オープンソースソフトウェアに適用される国際法に従って管理され解釈されます。これらの規約または拡張機能から生じる紛争は、誠意ある話し合いによって解決され、必要に応じて適切な法的チャネルを通じて解決されます。"
     },
     "changes": {
-      "title": "Changes to These Terms",
-      "content": "I reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting on my website. Your continued use of the extension after any changes signifies your acceptance of the new terms."
+      "title": "規約の変更",
+      "content": "これらの規約をいつでも更新または変更する権利を留保します。変更は私のウェブサイトに投稿された時点で即座に有効になります。変更後の拡張機能の継続使用は、新しい規約の受諾を意味します。"
     },
     "contact": {
-      "title": "Contact Information",
-      "content": "If you have any questions about these Terms, please contact me through my GitHub repository or email."
+      "title": "連絡先情報",
+      "content": "これらの規約について質問がある場合は、私の GitHub リポジトリまたはメールを通じてお気軽にお問い合わせください。"
     },
     "acceptance": {
-      "content": "By using X Profile Menu, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. Thank you for choosing X Profile Menu for your X.com browsing enhancement!"
+      "content": "X Profile Menu を使用することで、これらの利用規約を読み、理解し、拘束されることに同意したことを認めます。X.com ブラウジング体験の向上に X Profile Menu を選択していただき、ありがとうございます！"
     },
-    "backToHome": "Back to Home"
+    "backToHome": "ホームに戻る"
   }
 }
